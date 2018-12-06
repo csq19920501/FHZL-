@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BindDeviceVC">
+            <connections>
+                <outlet property="IMEI_tf" destination="a1d-L8-UXk" id="IzU-AH-SJW"/>
+                <outlet property="bindButton" destination="VpQ-u1-FgL" id="YrC-Oz-uab"/>
+                <outlet property="titleLabel" destination="rxT-Mb-j0R" id="BIh-dB-Uyz"/>
+                <outlet property="topConstant" destination="uFq-bt-q20" id="nf7-m7-Ydy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入设备IMEI号进行绑定" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxT-Mb-j0R">
+                    <rect key="frame" x="33" y="88" width="309" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="xb2-1W-cyU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a1d-L8-UXk">
+                    <rect key="frame" x="33" y="139" width="255" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="zLv-fH-R1Q"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpQ-u1-FgL">
+                    <rect key="frame" x="33" y="205" width="309" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="Lh2-nl-n6O"/>
+                    </constraints>
+                    <state key="normal" title="确认绑定" backgroundImage="按钮_N.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="confirmClick:" destination="-1" eventType="touchUpInside" id="Ckj-Re-oHG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTk-9w-Ekp">
+                    <rect key="frame" x="296" y="135" width="46" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="Co1-D6-o6Q"/>
+                        <constraint firstAttribute="width" constant="46" id="VHv-Tf-Arq"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="扫描_N.png"/>
+                    <connections>
+                        <action selector="BindClick:" destination="-1" eventType="touchUpInside" id="Kor-yV-7oo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VpQ-u1-FgL" secondAttribute="trailing" constant="33" id="8yM-aS-uzK"/>
+                <constraint firstItem="a1d-L8-UXk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="BGC-D2-JN9"/>
+                <constraint firstItem="cTk-9w-Ekp" firstAttribute="centerY" secondItem="a1d-L8-UXk" secondAttribute="centerY" id="VT9-5Q-wX7"/>
+                <constraint firstItem="rxT-Mb-j0R" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="itO-oJ-OvX"/>
+                <constraint firstItem="cTk-9w-Ekp" firstAttribute="leading" secondItem="a1d-L8-UXk" secondAttribute="trailing" constant="8" id="sf7-wO-xMh"/>
+                <constraint firstItem="VpQ-u1-FgL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="tjI-45-cYD"/>
+                <constraint firstItem="rxT-Mb-j0R" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="88" id="uFq-bt-q20"/>
+                <constraint firstAttribute="trailing" secondItem="rxT-Mb-j0R" secondAttribute="trailing" constant="33" id="wQ7-Gu-jAK"/>
+                <constraint firstItem="VpQ-u1-FgL" firstAttribute="top" secondItem="cTk-9w-Ekp" secondAttribute="bottom" constant="29" id="wyP-qi-U9b"/>
+                <constraint firstItem="cTk-9w-Ekp" firstAttribute="top" secondItem="rxT-Mb-j0R" secondAttribute="bottom" constant="26" id="xPC-Wh-ANb"/>
+                <constraint firstAttribute="trailing" secondItem="cTk-9w-Ekp" secondAttribute="trailing" constant="33" id="y6N-eq-OPv"/>
+            </constraints>
+            <point key="canvasLocation" x="69.5" y="104.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="扫描_N.png" width="52" height="52"/>
+        <image name="按钮_N.png" width="689" height="89"/>
+    </resources>
+</document>

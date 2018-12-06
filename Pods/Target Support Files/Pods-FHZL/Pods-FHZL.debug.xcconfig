@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Bugly" "${PODS_ROOT}/YYKit/Vendor"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bugly" "${PODS_ROOT}/Headers/Public/IQKeyboardManager" "${PODS_ROOT}/Headers/Public/JPush" "${PODS_ROOT}/Headers/Public/JShare" "${PODS_ROOT}/Headers/Public/YYKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager" "${PODS_CONFIGURATION_BUILD_DIR}/YYKit" "${PODS_ROOT}/JCore" "${PODS_ROOT}/JPush" "${PODS_ROOT}/JShare"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Bugly" -isystem "${PODS_ROOT}/Headers/Public/IQKeyboardManager" -isystem "${PODS_ROOT}/Headers/Public/JPush" -isystem "${PODS_ROOT}/Headers/Public/JShare" -isystem "${PODS_ROOT}/Headers/Public/YYKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"IQKeyboardManager" -l"YYKit" -l"c++" -l"jcore-ios-1.1.7" -l"jpush-ios-3.0.8" -l"jshare-ios-1.5.0" -l"resolv" -l"sqlite3" -l"z" -framework "Accelerate" -framework "AssetsLibrary" -framework "Bugly" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreLocation" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebP" -weak_framework "UserNotifications"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

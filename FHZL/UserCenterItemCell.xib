@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="UserCenterItemCell" rowHeight="44" id="3" customClass="UserCenterItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3" id="pNg-It-6G5">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="姓名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35">
+                        <rect key="frame" x="40" y="0.0" width="262" height="43.5"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="highlightedColor" red="0.37647058820000001" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkc-BE-efU">
+                        <rect key="frame" x="70" y="0.0" width="250" height="43.5"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" red="0.37647058820000001" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </label>
+                    <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nnG-1D-hxu">
+                        <rect key="frame" x="245" y="6.5" width="51" height="31"/>
+                    </switch>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvu-Sl-fWq">
+                        <rect key="frame" x="5" y="7" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Fa7-Af-IVy"/>
+                            <constraint firstAttribute="width" constant="30" id="vKn-ED-UXG"/>
+                        </constraints>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="rvu-Sl-fWq" firstAttribute="top" secondItem="pNg-It-6G5" secondAttribute="top" constant="7" id="0qc-6M-3pv"/>
+                    <constraint firstAttribute="trailing" secondItem="Kkc-BE-efU" secondAttribute="trailing" id="1EI-He-Cf5"/>
+                    <constraint firstItem="Kkc-BE-efU" firstAttribute="top" secondItem="pNg-It-6G5" secondAttribute="top" id="1vt-KJ-tiK"/>
+                    <constraint firstItem="35" firstAttribute="leading" secondItem="pNg-It-6G5" secondAttribute="leading" constant="40" id="Mj9-Wx-xwe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nnG-1D-hxu" secondAttribute="trailing" constant="10" id="StQ-kH-WaJ"/>
+                    <constraint firstItem="rvu-Sl-fWq" firstAttribute="leading" secondItem="pNg-It-6G5" secondAttribute="leading" constant="5" id="X6O-ys-5pf"/>
+                    <constraint firstItem="nnG-1D-hxu" firstAttribute="centerY" secondItem="pNg-It-6G5" secondAttribute="centerY" id="Y3s-Qj-eeH"/>
+                    <constraint firstItem="Kkc-BE-efU" firstAttribute="leading" secondItem="pNg-It-6G5" secondAttribute="leading" constant="70" id="eVt-0Q-BYA"/>
+                    <constraint firstAttribute="trailing" secondItem="35" secondAttribute="trailing" constant="18" id="eua-Bw-Xj4"/>
+                    <constraint firstAttribute="bottom" secondItem="35" secondAttribute="bottom" id="uVc-qr-pc3"/>
+                    <constraint firstItem="35" firstAttribute="top" secondItem="pNg-It-6G5" secondAttribute="top" id="ufv-hi-6Px"/>
+                    <constraint firstAttribute="bottom" secondItem="Kkc-BE-efU" secondAttribute="bottom" id="y03-94-x2d"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="_titleLabel" destination="35" id="GuL-ew-DI7"/>
+                <outlet property="_valueLabel" destination="Kkc-BE-efU" id="5Hf-nV-myq"/>
+                <outlet property="_valueSwitch" destination="nnG-1D-hxu" id="vgw-B8-aXQ"/>
+                <outlet property="headButton" destination="rvu-Sl-fWq" id="mx6-5m-YD6"/>
+            </connections>
+            <point key="canvasLocation" x="-107" y="46"/>
+        </tableViewCell>
+    </objects>
+</document>

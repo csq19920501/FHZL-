@@ -1,0 +1,39 @@
+PODS:
+  - Bugly (2.5.0)
+  - IQKeyboardManager (5.0.7)
+  - JCore (1.1.7)
+  - JPush (3.0.8):
+    - JCore (~> 1.1.7)
+  - JShare (1.5.0):
+    - JCore (~> 1.1.7)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Bugly
+  - IQKeyboardManager (~> 5.0.7)
+  - JPush (~> 3.0.8)
+  - JShare (~> 1.5.0)
+  - YYKit (~> 1.0.9)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bugly
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - JShare
+    - YYKit
+
+SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  JCore: f7459c81c135281a874a6beafdd321666adcc834
+  JPush: 9574d072cc37e93fa293ba69b43ce763c440943a
+  JShare: 8a13dc4d5ae987f69af1ea9876b94c3c9c40c6cd
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: eb1f5ec8929daa2cfdfc526b06e7c004dee48eb5
+
+COCOAPODS: 1.5.3

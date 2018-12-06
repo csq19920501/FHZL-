@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+NoInternet = "No internet";
+HintRequestFailed = "Hint request failed";
+HintRequestSuccess = "Hint request success";
+RegistRequestSuccess = "Regist request success";
+HintLogin = "Hint login";
+NotLogined = "Not logined";
+
+Website = "官网网址";
+ServicePhone = "Service phone";
+UserID = "UserID";
+CheckUpdate = "CheckUpdate";
+FoundNewVersion = "Found New Version";
+DoNotUpdate = "Do Not Update";
+Update = "Update";
+UpdateChecking = "Update checking";
+LastestVersion = "已经最新版本，无需更新";
+EmptyUsername = "Empty user name";
+EmptyPassword = "Empty password";
+Nickname = "Nick name";
+Username = "User name";
+
+
+OK = "OK";
+"Low electricity," = "Low electricity\n";
+"ACC high," = "ACC ON\n";
+"ACC low," = "ACC OFF\n";
+"Drop b+," = "External power cable disconnected\n";    //External power cable disconnected
+"Door Open," = "Door Open\n";
+"vehicle overspeed," = "vehicle overspeed\n";
+"SOS," = "SOS alarm\n";
+"Go into GPS blind area," = "Go into GPS blind area\n";
+"Go out GPS blind area," = "Go out GPS blind area\n";
+"The car vibrates," = "The car vibrates\n";
+"Abnormal vehicle movement," = "Abnormal vehicle movement\n";
+"Recording completed," = "Recording completed\n";
+"Unknown message," = "Unknown message\n";
+"Go out GPS blind area," = "Go out GPS blind area\n";
+"number," = "number";
+"Fence out," = "Fence out\n";
+"Fence in," = "Fence in\n";
+"NONO" = "No";
+"YESYES" = "Yes";
+"cannot exceed" = "cannot exceed %d";
+NotSamePassword = "The password is inconsistent twice";
+ResetDeviceRemind = "1. All parameters will be reset\n2. Post status restored by default";
