@@ -65,7 +65,7 @@
         _bvalid = dict[@"bvalid"];
         _dir = dict[@"dir"];//方向
         _door = dict[@"door"];
-        _gpsTime = dict[@"gpsTime"];
+        _gpsTime =   dict[@"gpsTime"];
         _gsmTime = dict[@"gsmTime"];
         _macId = dict[@"macId"];
         _macName = kStringIsEmpty(dict[@"macName"])?dict[@"macId"]:dict[@"macName"];

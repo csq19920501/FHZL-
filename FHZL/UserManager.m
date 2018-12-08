@@ -154,6 +154,7 @@ static UserManager* _sharedInstance;
     NSLog(@"date = %@",[dateFmt stringFromDate:myDate]);
     return [dateFmt stringFromDate:myDate];
 }
+//默认零食区
 +(NSString *)getDateDisplayString:(long long) miliSeconds{
     NSTimeInterval tempMilli = miliSeconds;
     NSTimeInterval seconds = tempMilli/1000.0;
@@ -162,7 +163,9 @@ static UserManager* _sharedInstance;
     NSDateFormatter *dateFmt = [[ NSDateFormatter alloc ] init ];
     dateFmt.dateFormat = @"yyyy-MM-dd HH:mm:ss";
     NSLog(@"date = %@",[dateFmt stringFromDate:myDate]);
-    return [dateFmt stringFromDate:myDate];
+    NSString *gmtTimeStr = [dateFmt stringFromDate:myDate];
+    //默认零时区 转成手机系统时区
+    return    [self changeDataStrWithStrInZero:gmtTimeStr];
 }
 +(NSString *)getDateDisplayShortString:(long long) miliSeconds{
     NSTimeInterval tempMilli = miliSeconds;
@@ -201,9 +204,7 @@ static UserManager* _sharedInstance;
     return localDateStr;
 }
 +(NSString *)changeDataStrWithLocalToZero:(NSString*)localDataStr{
-    
-    
-    
+
     NSDateFormatter *localDateFormat = [[NSDateFormatter alloc ] init];
 //    [zeroDateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"GMT"]];
       [localDateFormat setTimeZone:[NSTimeZone systemTimeZone]];
