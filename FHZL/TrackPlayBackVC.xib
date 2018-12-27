@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -113,13 +113,13 @@
                                 <action selector="touch_up_outside:" destination="-1" eventType="touchUpOutside" id="7n1-ol-6cL"/>
                             </connections>
                         </slider>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vD6-6k-bVz">
-                            <rect key="frame" x="315" y="10" width="32" height="25"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vD6-6k-bVz">
+                            <rect key="frame" x="315" y="10.666666666666629" width="32" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="OO8-Hy-qiq"/>
                                 <constraint firstAttribute="width" constant="32" id="T8Q-1Y-b92"/>
                             </constraints>
-                            <state key="normal" backgroundImage="轨迹回放_内容区_快进_N.png"/>
+                            <state key="normal" image="轨迹回放_内容区_快进_N.png" backgroundImage="轨迹回放_内容区_快进_N.png"/>
                             <connections>
                                 <action selector="slowButton:" destination="-1" eventType="touchUpInside" id="h8h-4d-VIE"/>
                             </connections>

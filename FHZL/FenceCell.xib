@@ -70,14 +70,22 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1SM-M0-sml">
+                        <rect key="frame" x="10" y="26" width="11" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="UIf-gZ-tca" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="8" id="1ga-A7-rD4"/>
                     <constraint firstItem="7Te-lr-yTR" firstAttribute="top" secondItem="ewa-bB-te3" secondAttribute="bottom" constant="1" id="1hs-jv-enX"/>
                     <constraint firstItem="7Te-lr-yTR" firstAttribute="leading" secondItem="KC9-X6-wZ9" secondAttribute="trailing" constant="3" id="DBS-IH-RJd"/>
+                    <constraint firstItem="1SM-M0-sml" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Igd-Lf-xPG"/>
                     <constraint firstItem="ewa-bB-te3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="Ls8-a9-9MJ"/>
                     <constraint firstAttribute="bottom" secondItem="rRH-zL-bII" secondAttribute="bottom" id="RP8-cQ-bta"/>
                     <constraint firstItem="KC9-X6-wZ9" firstAttribute="top" secondItem="ewa-bB-te3" secondAttribute="bottom" constant="1" id="TtI-bg-M2e"/>
+                    <constraint firstItem="1SM-M0-sml" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="aDJ-au-Svn"/>
                     <constraint firstItem="UIf-gZ-tca" firstAttribute="centerY" secondItem="7Te-lr-yTR" secondAttribute="centerY" id="azr-KX-AP6"/>
                     <constraint firstItem="ewa-bB-te3" firstAttribute="leading" secondItem="9gU-px-dgh" secondAttribute="trailing" constant="8" id="cmk-lC-MnN"/>
                     <constraint firstItem="9gU-px-dgh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="csd-Lt-8PM"/>
@@ -93,6 +101,7 @@
                 <outlet property="fenceImage" destination="9gU-px-dgh" id="qbs-wr-Agc"/>
                 <outlet property="fenceName" destination="ewa-bB-te3" id="eld-52-Xqn"/>
                 <outlet property="fenceRail" destination="UIf-gZ-tca" id="cK6-VH-8WC"/>
+                <outlet property="numberLabel" destination="1SM-M0-sml" id="PzX-gb-YS6"/>
             </connections>
             <point key="canvasLocation" x="209" y="-253.5"/>
         </tableViewCell>

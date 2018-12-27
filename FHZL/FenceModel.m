@@ -22,6 +22,7 @@
         _x = dict[@"x"];
         _y = dict[@"y"];
         _address = dict[@"address"];
+        _num = dict[@"num"];
     }
     return self;
 }

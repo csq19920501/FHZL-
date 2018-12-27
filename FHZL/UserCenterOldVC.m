@@ -406,15 +406,11 @@
     if (indexPath.section == 2) {
         showNewAlert(nil,L(@"Are you sure to quit"),nil,^(UIAlertAction *action){
             [UIUtil showProgressHUD:L(@"Exiting...") inView:self.view];
-            NSDictionary *dic = @{@"userId":CsqStringIsEmpty(USERMANAGER.user.userID)
-                                  };
+            NSDictionary *dic = @{@"userId":CsqStringIsEmpty(USERMANAGER.user.userID)};
             [ZZXDataService HFZLRequest:@"user/logout" httpMethod:@"POST" params1:dic   file:nil success:^(id data)
              {
-                 
                  if ([data[@"code"]integerValue] == 0) {
-                     
                  }else{
-                     
                  }
                  [UIUtil hideProgressHUD];
                  USERMANAGER.user.isLogined = NO;
@@ -465,7 +461,6 @@
         }
         // 有高亮选择的字符串，则暂不对文字进行统计和限制
         else{
-            
         }
     }
     // 中文输入法以外的直接对其统计限制即可，不考虑其他语种情况
@@ -477,12 +472,10 @@
         if (!position) {
             if (toBeString.length > kMaxLength) {
                 textField.text = [toBeString substringToIndex:kMaxLength];
-                
             }
         }
         // 有高亮选择的字符串，则暂不对文字进行统计和限制
         else{
-            
         }
     }
 }
@@ -558,10 +551,8 @@
 {
     headView.hidden = YES;
     int tag = (int)button.tag;
-    
     headViewInt = tag - 1000;
     [self setHeadImage];
-//    [UIUtil showProgressHUD:@"正在更换头像" inView:self.view];
 }
 -(void)setHeadImage
 {

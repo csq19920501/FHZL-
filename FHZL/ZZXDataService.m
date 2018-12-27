@@ -103,7 +103,7 @@
             [mutableDict setObject:contentString forKey:categoryId]; //mutableDict = @{@"a":@"user",@"m":@"getCarLocation",@"arg":@"{\"appFlag\":\"3\",...,\"appSecret\":\"...\"}"}
         }
     }
-    [self dictionaryAddLaungage:mutableDict];
+    
     //1.拼接地址
     NSString *requestURL = [NSString stringWithFormat:@"%@%@", kBaseURL, string];
     
@@ -428,7 +428,10 @@
     [mutableDict setObject:[NSString stringWithFormat:@"%lld",(long long)seconds * 1000] forKey:@"tm"];//
     [mutableDict setObject:CsqStringIsEmpty(USERMANAGER.user.token) forKey:@"token"];
     [mutableDict setObject:[AppData uuidString] forKey:@"deviceId"];
-    [mutableDict setObject:[self convertToJsonData:paramas1] forKey:@"args"];
+    [self dictionaryAddLaungage:mutableDict];
+    
+    NSMutableDictionary *paramasMutable = [NSMutableDictionary dictionaryWithDictionary:paramas1] ;
+    [mutableDict setObject:[self convertToJsonData:paramasMutable] forKey:@"args"];
     
     //获取appSecret
     NSMutableString *secretString = [NSMutableString string];
@@ -444,14 +447,10 @@
         [secretString appendFormat:@"%@%@",categoryId,[mutableDict objectForKey:categoryId]];
     }
     [secretString appendFormat:@"%@",CsqStringIsEmpty(USERMANAGER.user.token)];
-    SDLog(@"secretString = %@",secretString);
+//    [secretString appendFormat:@"%@",CsqStringIsEmpty([mutableDict objectForKey:@"language"])];
     
     
     [mutableDict setObject:[[secretString md5HexDigest]uppercaseString] forKey:@"secret"];
-
-    
-    [self dictionaryAddLaungage:mutableDict];
-    
     
     //1.拼接地址
     NSString *requestURL = [NSString stringWithFormat:@"%@/%@/%@", AppUrl,ServiceBuild, string];
@@ -643,14 +642,14 @@
 }
 //添加语言
 +(void)dictionaryAddLaungage:(NSMutableDictionary*)dictT{
-//    NSString *languageStr = [[NSLocale currentLocale] objectForKey:NSLocaleLanguageCode];
-//    if ([languageStr isEqualToString:@"zh"]) {
-//        languageStr = @"CN";
-//    }else if([languageStr isEqualToString:@"es"]){
-//        languageStr = @"ES";
-//    }else{
-//        languageStr = @"US";
-//    }
-//    [dictT setObject:[languageStr uppercaseString] forKey:@"language"];
+    NSString *languageStr = [[NSLocale currentLocale] objectForKey:NSLocaleLanguageCode];
+    if ([languageStr isEqualToString:@"zh"]) {
+        languageStr = @"CN";
+    }else if([languageStr isEqualToString:@"es"]){
+        languageStr = @"ES";
+    }else{
+        languageStr = @"US";
+    }
+    [dictT setObject:@"US" forKey:@"language"];
 }
 @end

@@ -31,7 +31,7 @@
     _fenceName.text = fenceModel.name;
     _fenceAddress.text = fenceModel.address;//fenceModel.
     _fenceRail.text = [NSString stringWithFormat:@"%@%@%@",L(@"radius"),fenceModel.radius,L(@"M")];
-    
+    _numberLabel.text = [NSString stringWithFormat:@"%d",[fenceModel.num integerValue] + 1];
     
 }
 @end

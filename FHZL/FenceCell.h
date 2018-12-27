@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *fenceAddress;
 @property (weak, nonatomic) IBOutlet UILabel *fenceRail;
 @property(nonatomic,strong)FenceModel *fenceModel;
+@property (weak, nonatomic) IBOutlet UILabel *numberLabel;
 
 
 @end

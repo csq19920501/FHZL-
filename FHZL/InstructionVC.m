@@ -79,8 +79,8 @@ typedef enum {
         setArray = @[L(@"Location upload interval"),L(@"Restore factory settings"),L(@"Version"),L(@"Custom instruction")];
     }
     else if (_macType == GT_52) {
-        OpenArray = @[L(@"Oil break power off"),L(@"External power failure alarm"),L(@"Overspeed alarm settings")];//
-        setArray = @[L(@"Location upload interval"),L(@"Restore factory settings"),L(@"Custom instruction"),L(@"Overspeed alarm settings")];
+        OpenArray = @[L(@"Oil break power off"),L(@"Overspeed alarm settings")];//
+        setArray = @[L(@"Location upload interval"),L(@"Custom instruction"),L(@"Overspeed alarm settings")];
     }
     else if (_macType == GT_121) {
         
@@ -402,13 +402,13 @@ typedef enum {
                     cell.switchOn.tag = 100 + 0;
                 }
                     break;
+//                case 1:
+//                {
+//                    [cell.switchOn setOn:[_insStateModel.powerAlarm intValue]  == 0?NO:YES];
+//                    cell.switchOn.tag = 100 + 6;
+//                }
+//                    break;
                 case 1:
-                {
-                    [cell.switchOn setOn:[_insStateModel.powerAlarm intValue]  == 0?NO:YES];
-                    cell.switchOn.tag = 100 + 6;
-                }
-                    break;
-                case 2:
                 {
                     [cell.switchOn setOn:[_insStateModel.speedLimit intValue]  == 0 && [_insStateModel.speedLimitRunTime intValue]  == 0?NO:YES];
                     cell.switchOn.tag = 100 + 17;
@@ -743,20 +743,20 @@ typedef enum {
                 }
                     break;
                     
-                case 1:
-                {
-                    showNewAlert(L(@"Are you sure you want to restore factory settings?"),L(@"ResetDeviceRemind"),nil,^(UIAlertAction *act){
-                        UISwitch *switCH = [UISwitch new];
-                        switCH.tag = 111;
-                        [self sendInstr:0 :switCH];
-                        [UIUtil showProgressHUD:nil inView:self.view];
-                    })
-                }
-                    break;
-                case 2:{
+//                case 1:
+//                {
+//                    showNewAlert(L(@"Are you sure you want to restore factory settings?"),L(@"ResetDeviceRemind"),nil,^(UIAlertAction *act){
+//                        UISwitch *switCH = [UISwitch new];
+//                        switCH.tag = 111;
+//                        [self sendInstr:0 :switCH];
+//                        [UIUtil showProgressHUD:nil inView:self.view];
+//                    })
+//                }
+//                    break;
+                case 1:{
                     [self tipView];
                 }break;
-                case 3:{
+                case 2:{
                     [self speedTipView];
                 }break;
                 

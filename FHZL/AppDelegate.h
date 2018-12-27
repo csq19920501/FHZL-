@@ -8,7 +8,7 @@
 
 static NSString *appKey = @"817683c767bcd4eb4dc5e80a";
 static NSString *channel = @"appStore";
-static BOOL isProduction = FALSE;
+static BOOL isProduction = false;
 
 #import <BaiduMapAPI_Base/BMKBaseComponent.h>
 #import <BaiduMapAPI_Map/BMKMapComponent.h>

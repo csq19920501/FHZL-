@@ -3,7 +3,7 @@
 //  FHZL
 //
 //  Created by hk on 17/12/11.
-//  Copyright © 2017年 hk. All rights reserved.
+//  Copyright © 2017年 hk. All rights reserved.1.1.6
 //
 #import "JSHAREService.h"
 #import <Bugly/Bugly.h>
@@ -120,7 +120,6 @@
     [JSHAREService setDebug:NO];
 }
 -(void)setRootMainVC{
-
 //        if (!kArrayIsEmpty(USERMANAGER.GT10CarArray)) {
             CYTabBarController *GT_10Tabbar = [[CYTabBarController alloc]init];
             [CYTabBarConfig shared].selectedTextColor = [UIColor colorWithRed:45/255. green:159/255. blue:254/255. alpha:1];
@@ -239,20 +238,12 @@
         
         NSLog(@"resp1 = %@ resp1.errCode = %d, resp.code = %@",resp1,resp1.errCode,resp1.code);
         NSLog(@"resp.state = %@ resp.lang = %@, resp.country = %@",resp1.state,resp1.lang,resp1.country);
-        
-        //        errCode
-        //        errStr
-        //        type
-        
         if (resp1.errCode == 0) {
-            
             [[NSNotificationCenter defaultCenter] postNotificationName:@"WEIXINIMAGEFirst" object:nil];
-            
             SendAuthResp *authResp = (SendAuthResp *)resp;
             [USER_PLIST setObject:authResp.code forKey:@"WEIXINCODE"];
             if (authResp.errCode == 0) {
                 NSString *url =[NSString stringWithFormat:@"https://api.weixin.qq.com/sns/oauth2/access_token?appid=%@&secret=%@&code=%@&grant_type=authorization_code",WEIXINID,WEIXINSECRET,authResp.code];
-                
                 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                     NSURL *zoneUrl = [NSURL URLWithString:url];
                     NSString *zoneStr = [NSString stringWithContentsOfURL:zoneUrl encoding:NSUTF8StringEncoding error:nil];
@@ -260,16 +251,6 @@
                     dispatch_async(dispatch_get_main_queue(), ^{
                         if (data) {
                             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-                            /*
-                             {
-                             "access_token" = "OezXcEiiBSKSxW0eoylIeJDUKD6z6dmr42JANLPjNN7Kaf3e4GZ2OncrCfiKnGWiusJMZwzQU8kXcnT1hNs_ykAFDfDEuNp6waj-bDdepEzooL_k1vb7EQzhP8plTbD0AgR8zCRi1It3eNS7yRyd5A";
-                             "expires_in" = 7200;
-                             openid = oyAaTjsDx7pl4Q42O3sDzDtA7gZs;
-                             "refresh_token" = "OezXcEiiBSKSxW0eoylIeJDUKD6z6dmr42JANLPjNN7Kaf3e4GZ2OncrCfiKnGWi2ZzH_XfVVxZbmha9oSFnKAhFsS0iyARkXCa7zPu4MqVRdwyb8J16V8cWw7oNIff0l-5F-4-GJwD8MopmjHXKiA";
-                             scope = "snsapi_userinfo,snsapi_base";
-                             }
-                             */
-                            
                             NSString *weixin_token = [dic objectForKey:@"access_token"];
                             NSString *weixin_openid = [dic objectForKey:@"openid"];
                             NSString *url =[NSString stringWithFormat:@"https://api.weixin.qq.com/sns/userinfo?access_token=%@&openid=%@",weixin_token,weixin_openid];
@@ -281,25 +262,6 @@
                                 dispatch_async(dispatch_get_main_queue(), ^{
                                     if (data) {
                                         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-                                        /*
-                                         {
-                                         city = Haidian;
-                                         country = CN;
-                                         headimgurl = "http://wx.qlogo.cn/mmopen/FrdAUicrPIibcpGzxuD0kjfnvc2klwzQ62a1brlWq1sjNfWREia6W8Cf8kNCbErowsSUcGSIltXTqrhQgPEibYakpl5EokGMibMPU/0";
-                                         language = "zh_CN";
-                                         nickname = "xxx";
-                                         openid = oyAaTjsDx7pl4xxxxxxx;
-                                         privilege =     (
-                                         );
-                                         province = Beijing;
-                                         sex = 1;
-                                         unionid = oyAaTjsxxxxxxQ42O3xxxxxxs;
-                                         }
-                                         */
-                                        
-                                        
-                                        
-                                        
                                         USERMANAGER.user.headPicPath = [dic objectForKey:@"headimgurl"];
                                         
                                         [[NSNotificationCenter defaultCenter] postNotificationName:@"WEIXINIMAGE" object:nil];
@@ -326,6 +288,7 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    [self setBadgeZero];
 }
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.

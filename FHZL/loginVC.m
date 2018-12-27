@@ -47,8 +47,6 @@
                 self.accountView.hidden = NO;
                 _passwordTF.enabled = NO;
                 _accountButton.selected = !_accountButton.selected;
-                
-                
             }
         }];
     }else{
@@ -89,10 +87,9 @@
     
     accountArray = [NSMutableArray array];
     [accountArray addObjectsFromArray:[USER_PLIST objectForKey:@"ACCOUNDARRAY"]];
-    
+
     DISPATCH_ON_MAIN_THREAD(^{
         //更新UI
-
         CGRect rect = self.accountView.frame;
         if (accountArray.count <= 4) {
             rect.size.height = 30 * accountArray.count;

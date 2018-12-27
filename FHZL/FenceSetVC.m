@@ -366,7 +366,6 @@
 
 //围栏在地图中心
 -(void)changeMapLevelWithRadious{
-    
     CGFloat spanDelta = 0.05 > _radiusSlider.value*6.0 /100000.?0.05:_radiusSlider.value*6.0 /100000.;
     BMKCoordinateRegion userRegion ;
     userRegion.center = _fenceCoordinate;
@@ -705,6 +704,7 @@
     
     if (!isAddFence) {
         NSDictionary *dic = @{@"userId":CsqStringIsEmpty(USERMANAGER.user.userID),
+                              @"macType":CsqStringIsEmpty(_carModel.macType),
                               @"macId":CsqStringIsEmpty(_carModel.macId),
                               @"id":CsqStringIsEmpty(_fenModel.fenceId),
                               @"name":CsqStringIsEmpty(_fenceNameTF.text),
@@ -712,7 +712,7 @@
                               @"activate":CsqStringIsEmpty(_fenModel.activate),
                               @"address":CsqStringIsEmpty(_fenModel.address),
                               @"x":CsqStringIsEmpty(lonF),
-                              @"count":[NSString stringWithFormat:@"%ld",setFenceInt],
+                              @"count":[NSString stringWithFormat:@"%d",setFenceInt],
                               @"y":CsqStringIsEmpty(latF)
                               };
         setFenceInt++;

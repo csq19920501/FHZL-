@@ -68,49 +68,6 @@
 		460C768C2007629D0095F5BC /* SDChatInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 460C75E22007629D0095F5BC /* SDChatInputView.m */; };
 		460C768D2007629D0095F5BC /* SDChatTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 460C75E42007629D0095F5BC /* SDChatTableView.m */; };
 		460C768E2007629D0095F5BC /* SDChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 460C75E62007629D0095F5BC /* SDChatTableViewCell.m */; };
-		460C76912007675C0095F5BC /* speak_end.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 460C76902007675B0095F5BC /* speak_end.mp3 */; };
-		460C76932007676D0095F5BC /* qq.wav in Resources */ = {isa = PBXBuildFile; fileRef = 460C76922007676C0095F5BC /* qq.wav */; };
-		460C769B200793E10095F5BC /* 主界面_语音_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C769A200793E10095F5BC /* 主界面_语音_N.png */; };
-		460C76A8200794330095F5BC /* 主界面_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C769E2007942D0095F5BC /* 主界面_2.png */; };
-		460C76A9200794330095F5BC /* 主界面_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C769F2007942D0095F5BC /* 主界面_3.png */; };
-		460C76AA200794330095F5BC /* 主界面_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76A02007942E0095F5BC /* 主界面_6.png */; };
-		460C76AB200794330095F5BC /* 主界面_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76A12007942F0095F5BC /* 主界面_5.png */; };
-		460C76AC200794330095F5BC /* 主界面_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76A22007942F0095F5BC /* 主界面_8.png */; };
-		460C76AD200794330095F5BC /* 主界面_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76A3200794300095F5BC /* 主界面_4.png */; };
-		460C76AE200794330095F5BC /* 主界面_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76A4200794310095F5BC /* 主界面_9.png */; };
-		460C76AF200794330095F5BC /* 主界面_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76A5200794320095F5BC /* 主界面_1.png */; };
-		460C76B0200794330095F5BC /* 主界面_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76A6200794320095F5BC /* 主界面_7.png */; };
-		460C76B1200794330095F5BC /* 主界面_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76A7200794330095F5BC /* 主界面_10.png */; };
-		460C76D62007955C0095F5BC /* voicenaci_sound3.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76B8200795190095F5BC /* voicenaci_sound3.png */; };
-		460C76D72007955C0095F5BC /* voicenaci_sound7.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76B92007951E0095F5BC /* voicenaci_sound7.png */; };
-		460C76D82007955C0095F5BC /* voicenaci_sound20.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76BA2007951F0095F5BC /* voicenaci_sound20.png */; };
-		460C76D92007955C0095F5BC /* voicenaci_sound16.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76BB200795220095F5BC /* voicenaci_sound16.png */; };
-		460C76DA2007955C0095F5BC /* voicenaci_sound26.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76BC200795260095F5BC /* voicenaci_sound26.png */; };
-		460C76DB2007955C0095F5BC /* voicenaci_sound6.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76BD200795280095F5BC /* voicenaci_sound6.png */; };
-		460C76DC2007955C0095F5BC /* voicenaci_sound24.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76BE2007952A0095F5BC /* voicenaci_sound24.png */; };
-		460C76DD2007955C0095F5BC /* voicenaci_sound25.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76BF2007952C0095F5BC /* voicenaci_sound25.png */; };
-		460C76DE2007955C0095F5BC /* voicenaci_sound28.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C0200795300095F5BC /* voicenaci_sound28.png */; };
-		460C76DF2007955D0095F5BC /* voicenaci_sound18.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C1200795330095F5BC /* voicenaci_sound18.png */; };
-		460C76E02007955D0095F5BC /* voicenaci_sound2.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C2200795360095F5BC /* voicenaci_sound2.png */; };
-		460C76E12007955D0095F5BC /* voicenaci_sound11.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C32007953B0095F5BC /* voicenaci_sound11.png */; };
-		460C76E22007955D0095F5BC /* voicenaci_sound15.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C42007953E0095F5BC /* voicenaci_sound15.png */; };
-		460C76E32007955D0095F5BC /* voicenaci_sound19.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C5200795410095F5BC /* voicenaci_sound19.png */; };
-		460C76E42007955D0095F5BC /* voicenaci_sound21.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C6200795440095F5BC /* voicenaci_sound21.png */; };
-		460C76E52007955D0095F5BC /* voicenaci_sound12.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C7200795470095F5BC /* voicenaci_sound12.png */; };
-		460C76E62007955D0095F5BC /* voicenaci_sound13.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C8200795490095F5BC /* voicenaci_sound13.png */; };
-		460C76E72007955D0095F5BC /* voicenaci_sound29.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76C92007954B0095F5BC /* voicenaci_sound29.png */; };
-		460C76E82007955D0095F5BC /* voicenaci_sound27.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76CA2007954D0095F5BC /* voicenaci_sound27.png */; };
-		460C76E92007955D0095F5BC /* voicenaci_sound0.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76CB2007954E0095F5BC /* voicenaci_sound0.png */; };
-		460C76EA2007955D0095F5BC /* voicenaci_sound1.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76CC2007954F0095F5BC /* voicenaci_sound1.png */; };
-		460C76EB2007955D0095F5BC /* voicenaci_sound8.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76CD200795500095F5BC /* voicenaci_sound8.png */; };
-		460C76EC2007955D0095F5BC /* voicenaci_sound14.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76CE200795520095F5BC /* voicenaci_sound14.png */; };
-		460C76ED2007955D0095F5BC /* voicenaci_sound17.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76CF200795530095F5BC /* voicenaci_sound17.png */; };
-		460C76EE2007955D0095F5BC /* voicenaci_sound5.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76D0200795540095F5BC /* voicenaci_sound5.png */; };
-		460C76EF2007955D0095F5BC /* voicenaci_sound23.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76D1200795550095F5BC /* voicenaci_sound23.png */; };
-		460C76F02007955D0095F5BC /* voicenaci_sound4.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76D2200795570095F5BC /* voicenaci_sound4.png */; };
-		460C76F12007955D0095F5BC /* voicenaci_sound22.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76D3200795580095F5BC /* voicenaci_sound22.png */; };
-		460C76F22007955D0095F5BC /* voicenaci_sound10.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76D42007955B0095F5BC /* voicenaci_sound10.png */; };
-		460C76F32007955D0095F5BC /* voicenaci_sound9.png in Resources */ = {isa = PBXBuildFile; fileRef = 460C76D52007955C0095F5BC /* voicenaci_sound9.png */; };
 		4613660A2004642000C714F7 /* BaiduPanoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461366092004642000C714F7 /* BaiduPanoSDK.framework */; };
 		4613660C2004642C00C714F7 /* BaiduPanoResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4613660B2004642C00C714F7 /* BaiduPanoResource.bundle */; };
 		4613660F2004C13F00C714F7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4613660D2004C13F00C714F7 /* RootViewController.m */; };
@@ -282,7 +239,6 @@
 		461D367A1FECF21B00841454 /* play_page_needle 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D366E1FECF21B00841454 /* play_page_needle 副本.png */; };
 		461D367B1FECF21B00841454 /* play_page_needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D366F1FECF21B00841454 /* play_page_needle.png */; };
 		461D367C1FECF21B00841454 /* player_slider_playback_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D36701FECF21B00841454 /* player_slider_playback_thumb@2x.png */; };
-		461D36881FF0EA0A00841454 /* 我在这.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D36871FF0EA0A00841454 /* 我在这.png */; };
 		461D36931FF1EE7F00841454 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 461D36951FF1EE7F00841454 /* InfoPlist.strings */; };
 		461D36981FF1EE9A00841454 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 461D369A1FF1EE9A00841454 /* Localizable.strings */; };
 		461D369D1FF1FBC200841454 /* 验证码输入框黑色_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D369C1FF1FBC200841454 /* 验证码输入框黑色_N.png */; };
@@ -329,33 +285,13 @@
 		461D37131FF4DB2E00841454 /* mycar.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D37101FF4DB2E00841454 /* mycar.png */; };
 		461D37141FF4DB2E00841454 /* mycarCsqGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D37111FF4DB2E00841454 /* mycarCsqGray@2x.png */; };
 		461D37151FF4DB2E00841454 /* mycarCsqRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D37121FF4DB2E00841454 /* mycarCsqRed@2x.png */; };
-		461D37171FF4F4A700841454 /* 智能找车.png in Resources */ = {isa = PBXBuildFile; fileRef = 461D37161FF4F4A700841454 /* 智能找车.png */; };
 		461F581A200F22B6007D967A /* 指令_标题栏_历史记录_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 461F5819200F22B6007D967A /* 指令_标题栏_历史记录_N.png */; };
 		461F581E20104ED3007D967A /* listenSoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 461F581C20104ED3007D967A /* listenSoundVC.m */; };
 		461F581F20104ED3007D967A /* listenSoundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461F581D20104ED3007D967A /* listenSoundVC.xib */; };
 		461F582120108212007D967A /* 录音_内容区_录音图标_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 461F582020108212007D967A /* 录音_内容区_录音图标_N.png */; };
-		461F582320109D37007D967A /* main_mymic.png in Resources */ = {isa = PBXBuildFile; fileRef = 461F582220109D36007D967A /* main_mymic.png */; };
 		4636E0812015CAE600A316C6 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4636E0802015CAE600A316C6 /* SSKeychain.m */; };
 		4636E0BD20172A3C00A316C6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4636E0BC20172A3B00A316C6 /* CFNetwork.framework */; };
-		4636E0D2201ACED700A316C6 /* APP_主页_位置服务_定位_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0C1201ACEAF00A316C6 /* APP_主页_位置服务_定位_N.png */; };
-		4636E0D3201ACED700A316C6 /* APP_主页_音乐_播放进度条1_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0C2201ACEC400A316C6 /* APP_主页_音乐_播放进度条1_N.png */; };
-		4636E0D4201ACED700A316C6 /* APP_主页_音乐_播放进度条2_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0C3201ACEC800A316C6 /* APP_主页_音乐_播放进度条2_N.png */; };
-		4636E0D5201ACED700A316C6 /* APP_主页_音乐_底图_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0C4201ACEC900A316C6 /* APP_主页_音乐_底图_N.png */; };
-		4636E0D6201ACED700A316C6 /* APP_主页_音乐_暂停_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0C5201ACECA00A316C6 /* APP_主页_音乐_暂停_N.png */; };
-		4636E0D7201ACED700A316C6 /* APP_主页_音乐_暂停_P.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0C6201ACECF00A316C6 /* APP_主页_音乐_暂停_P.png */; };
-		4636E0D8201ACED700A316C6 /* APP_主页_音乐_专辑显示1_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0C7201ACED000A316C6 /* APP_主页_音乐_专辑显示1_N.png */; };
-		4636E0D9201ACED700A316C6 /* APP_主页_new1_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0C8201ACED000A316C6 /* APP_主页_new1_28.png */; };
-		4636E0DB201ACED700A316C6 /* APP_主页_音乐_播放_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0CA201ACED200A316C6 /* APP_主页_音乐_播放_N.png */; };
-		4636E0DC201ACED700A316C6 /* APP_主页_音乐_播放_P.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0CB201ACED200A316C6 /* APP_主页_音乐_播放_P.png */; };
-		4636E0DD201ACED700A316C6 /* APP_主页_位置服务_底图_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0CC201ACED300A316C6 /* APP_主页_位置服务_底图_N.png */; };
-		4636E0DE201ACED700A316C6 /* APP_主页_音乐_播放进度条滑块_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0CD201ACED400A316C6 /* APP_主页_音乐_播放进度条滑块_N.png */; };
-		4636E0DF201ACED700A316C6 /* APP_主页_音乐_上一个_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0CE201ACED400A316C6 /* APP_主页_音乐_上一个_N.png */; };
-		4636E0E0201ACED700A316C6 /* APP_主页_音乐_下一个_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0CF201ACED500A316C6 /* APP_主页_音乐_下一个_N.png */; };
-		4636E0E1201ACED700A316C6 /* APP_主页_音乐_上一个_P.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0D0201ACED500A316C6 /* APP_主页_音乐_上一个_P.png */; };
-		4636E0E2201ACED700A316C6 /* APP_主页_音乐_下一个_P.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0D1201ACED600A316C6 /* APP_主页_音乐_下一个_P.png */; };
 		4636E0EA201B256E00A316C6 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4636E0E9201B256E00A316C6 /* ProgressView.m */; };
-		4636E0EC201B324A00A316C6 /* 音乐_专辑显示区域_没有专辑显示.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0EB201B324900A316C6 /* 音乐_专辑显示区域_没有专辑显示.png */; };
-		4636E0EE201B4E9B00A316C6 /* music_bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636E0ED201B4E9A00A316C6 /* music_bg3.png */; };
 		4641146D2178AD9600B79378 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4641146C2178AD9600B79378 /* Info.plist */; };
 		464192151FDE366E0000E119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192141FDE366E0000E119 /* main.m */; };
 		464192181FDE366E0000E119 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 464192171FDE366E0000E119 /* AppDelegate.mm */; };
@@ -390,7 +326,6 @@
 		4641929A1FDE37460000E119 /* NSTimer+Off.m in Sources */ = {isa = PBXBuildFile; fileRef = 4641928F1FDE37460000E119 /* NSTimer+Off.m */; };
 		4641929B1FDE37460000E119 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192911FDE37460000E119 /* UIButton+Badge.m */; };
 		4641929C1FDE37460000E119 /* UITableView+WFEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192931FDE37460000E119 /* UITableView+WFEmpty.m */; };
-		464192B81FDE38F10000E119 /* 120*120弃用.png in Resources */ = {isa = PBXBuildFile; fileRef = 4641929E1FDE38F10000E119 /* 120*120弃用.png */; };
 		464192B91FDE38F10000E119 /* 按钮_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4641929F1FDE38F10000E119 /* 按钮_N.png */; };
 		464192BA1FDE38F10000E119 /* 按钮_P.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192A01FDE38F10000E119 /* 按钮_P.png */; };
 		464192BB1FDE38F10000E119 /* 标题栏_返回_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192A11FDE38F10000E119 /* 标题栏_返回_N.png */; };
@@ -412,18 +347,12 @@
 		464192CB1FDE38F10000E119 /* APP_主页_扫码_P.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192B11FDE38F10000E119 /* APP_主页_扫码_P.png */; };
 		464192CC1FDE38F10000E119 /* APP_注册_1_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192B21FDE38F10000E119 /* APP_注册_1_N.png */; };
 		464192CD1FDE38F10000E119 /* APP_注册_1_P.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192B31FDE38F10000E119 /* APP_注册_1_P.png */; };
-		464192CE1FDE38F10000E119 /* DirnkGlassBottonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192B41FDE38F10000E119 /* DirnkGlassBottonImage.png */; };
-		464192CF1FDE38F10000E119 /* maijia1.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192B51FDE38F10000E119 /* maijia1.png */; };
-		464192D01FDE38F10000E119 /* wangwnag1.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192B61FDE38F10000E119 /* wangwnag1.png */; };
-		464192D11FDE38F10000E119 /* yifu.png in Resources */ = {isa = PBXBuildFile; fileRef = 464192B71FDE38F10000E119 /* yifu.png */; };
 		464192F01FDE39730000E119 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192D31FDE39730000E119 /* AppData.m */; };
 		464192F11FDE39730000E119 /* carModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192D51FDE39730000E119 /* carModel.m */; };
 		464192FA1FDE39730000E119 /* loginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192E41FDE39730000E119 /* loginVC.m */; };
 		464192FB1FDE39730000E119 /* loginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464192E51FDE39730000E119 /* loginVC.xib */; };
 		464192FC1FDE39730000E119 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192E71FDE39730000E119 /* RegisterViewController.m */; };
 		464192FD1FDE39730000E119 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464192E81FDE39730000E119 /* RegisterViewController.xib */; };
-		464192FE1FDE39730000E119 /* SearchBTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192EA1FDE39730000E119 /* SearchBTVC.m */; };
-		464192FF1FDE39730000E119 /* SearchBTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464192EB1FDE39730000E119 /* SearchBTVC.xib */; };
 		464193001FDE39730000E119 /* User.mm in Sources */ = {isa = PBXBuildFile; fileRef = 464192ED1FDE39730000E119 /* User.mm */; };
 		464193011FDE39730000E119 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 464192EF1FDE39730000E119 /* UserManager.m */; };
 		464193231FDE50290000E119 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4641931F1FDE50290000E119 /* LICENSE */; };
@@ -585,8 +514,6 @@
 		467DB9BE205BB2DF0036151F /* 车辆追踪_内容区_定位_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 467DB9BA205BB2DD0036151F /* 车辆追踪_内容区_定位_N.png */; };
 		467DB9BF205BB2DF0036151F /* 车辆追踪_内容区_导航_P.png in Resources */ = {isa = PBXBuildFile; fileRef = 467DB9BB205BB2DE0036151F /* 车辆追踪_内容区_导航_P.png */; };
 		467DB9C0205BB2DF0036151F /* 车辆追踪_内容区_导航_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 467DB9BC205BB2DF0036151F /* 车辆追踪_内容区_导航_N.png */; };
-		468E2CC620A96BAE0095E181 /* APP_主页_位置服务_底图_N2.png in Resources */ = {isa = PBXBuildFile; fileRef = 468E2CC520A96BAE0095E181 /* APP_主页_位置服务_底图_N2.png */; };
-		468E2CC820A96BCF0095E181 /* APP_主页_音乐_底图红_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 468E2CC720A96BCF0095E181 /* APP_主页_音乐_底图红_N.png */; };
 		469CA4812101D42A00DE6BDA /* device_info_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 469CA4802101D42900DE6BDA /* device_info_7.png */; };
 		469CA4832101D5F200DE6BDA /* 开机画面4.png in Resources */ = {isa = PBXBuildFile; fileRef = 469CA4822101D5F100DE6BDA /* 开机画面4.png */; };
 		46A8904C209BE878006E00A0 /* 定位_拍照_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 46A8904B209BE878006E00A0 /* 定位_拍照_N.png */; };
@@ -636,9 +563,6 @@
 		46B7C17C1FE8EDDA0077F25B /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B7C17B1FE8EDDA0077F25B /* BaiduMapAPI_Map.framework */; };
 		46B7C17F1FE8EE140077F25B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B7C17D1FE8EE140077F25B /* libcrypto.a */; };
 		46B7C1801FE8EE140077F25B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B7C17E1FE8EE140077F25B /* libssl.a */; };
-		46B8FA172045040C00D31C41 /* APP_主页_音乐_音乐1_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B8FA162045040B00D31C41 /* APP_主页_音乐_音乐1_N.png */; };
-		46B8FA1B2045050800D31C41 /* APP_主页_图拍_底图_图拍N.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B8FA1A2045050800D31C41 /* APP_主页_图拍_底图_图拍N.png */; };
-		46B8FA1D2045054B00D31C41 /* APP_主页_图拍_图片_图拍N.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B8FA1C2045054B00D31C41 /* APP_主页_图拍_图片_图拍N.png */; };
 		46B8FA2220455BF100D31C41 /* APNSetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B8FA1F20455BF000D31C41 /* APNSetingViewController.xib */; };
 		46B8FA2320455BF100D31C41 /* APNSetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8FA2120455BF100D31C41 /* APNSetingViewController.m */; };
 		46B8FA2520455C2700D31C41 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B8FA2420455C2700D31C41 /* MessageUI.framework */; };
@@ -721,7 +645,6 @@
 		46CCDFA12000C6D5009B9A4B /* 车子类型_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CCDF982000C6D4009B9A4B /* 车子类型_8.png */; };
 		46D3156B2029968300FA2F3D /* CSQPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D3156A2029968300FA2F3D /* CSQPhotoPreviewController.m */; };
 		46D3156E202AE36400FA2F3D /* searchBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D3156D202AE36400FA2F3D /* searchBack.png */; };
-		46D31572202B063000FA2F3D /* APP_主页_随拍_底图_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D31571202B062F00FA2F3D /* APP_主页_随拍_底图_N.png */; };
 		46D31578202BEE4600FA2F3D /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D31575202BEE4500FA2F3D /* UITableView+HYBCacheHeight.m */; };
 		46D31579202BEE4600FA2F3D /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D31577202BEE4500FA2F3D /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 		46D315BA202BF0AF00FA2F3D /* resource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D315B3202BF0AE00FA2F3D /* resource.xcassets */; };
@@ -738,11 +661,6 @@
 		46D377DB204E434900847B06 /* MAIN_日历_图标_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D377D8204E434800847B06 /* MAIN_日历_图标_N.png */; };
 		46D377DC204E434900847B06 /* MAIN_日历_左翻_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D377D9204E434800847B06 /* MAIN_日历_左翻_N.png */; };
 		46DD54D720F5B93E00D591D1 /* Gt121Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD54D620F5B93E00D591D1 /* Gt121Model.m */; };
-		46E9A7D42091ADCC00A1DF1E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E9A7D32091ADCC00A1DF1E /* Default@2x.png */; };
-		46E9A7D62091AE1200A1DF1E /* Default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E9A7D52091AE1100A1DF1E /* Default@3x.png */; };
-		46E9A7D82091AE4D00A1DF1E /* Default568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E9A7D72091AE4D00A1DF1E /* Default568@2x.png */; };
-		46E9A7DA2091AE7B00A1DF1E /* Default667@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E9A7D92091AE7A00A1DF1E /* Default667@2x.png */; };
-		46E9A7DC2091AE9E00A1DF1E /* Default736@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E9A7DB2091AE9E00A1DF1E /* Default736@2x.png */; };
 		46F9E85D20464BAC0002C1C6 /* FlowQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F9E85C20464BAB0002C1C6 /* FlowQueryViewController.m */; };
 		46F9E8662046561F0002C1C6 /* JSToOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 46F9E85F2046561E0002C1C6 /* JSToOC.html */; };
 		46F9E8672046561F0002C1C6 /* RootWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F9E8612046561E0002C1C6 /* RootWebViewController.m */; };
@@ -899,49 +817,6 @@
 		460C75E42007629D0095F5BC /* SDChatTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDChatTableView.m; sourceTree = "<group>"; };
 		460C75E52007629D0095F5BC /* SDChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDChatTableViewCell.h; sourceTree = "<group>"; };
 		460C75E62007629D0095F5BC /* SDChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDChatTableViewCell.m; sourceTree = "<group>"; };
-		460C76902007675B0095F5BC /* speak_end.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speak_end.mp3; sourceTree = "<group>"; };
-		460C76922007676C0095F5BC /* qq.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = qq.wav; sourceTree = "<group>"; };
-		460C769A200793E10095F5BC /* 主界面_语音_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_语音_N.png"; sourceTree = "<group>"; };
-		460C769E2007942D0095F5BC /* 主界面_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_2.png"; sourceTree = "<group>"; };
-		460C769F2007942D0095F5BC /* 主界面_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_3.png"; sourceTree = "<group>"; };
-		460C76A02007942E0095F5BC /* 主界面_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_6.png"; sourceTree = "<group>"; };
-		460C76A12007942F0095F5BC /* 主界面_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_5.png"; sourceTree = "<group>"; };
-		460C76A22007942F0095F5BC /* 主界面_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_8.png"; sourceTree = "<group>"; };
-		460C76A3200794300095F5BC /* 主界面_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_4.png"; sourceTree = "<group>"; };
-		460C76A4200794310095F5BC /* 主界面_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_9.png"; sourceTree = "<group>"; };
-		460C76A5200794320095F5BC /* 主界面_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_1.png"; sourceTree = "<group>"; };
-		460C76A6200794320095F5BC /* 主界面_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_7.png"; sourceTree = "<group>"; };
-		460C76A7200794330095F5BC /* 主界面_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面_10.png"; sourceTree = "<group>"; };
-		460C76B8200795190095F5BC /* voicenaci_sound3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound3.png; sourceTree = "<group>"; };
-		460C76B92007951E0095F5BC /* voicenaci_sound7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound7.png; sourceTree = "<group>"; };
-		460C76BA2007951F0095F5BC /* voicenaci_sound20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound20.png; sourceTree = "<group>"; };
-		460C76BB200795220095F5BC /* voicenaci_sound16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound16.png; sourceTree = "<group>"; };
-		460C76BC200795260095F5BC /* voicenaci_sound26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound26.png; sourceTree = "<group>"; };
-		460C76BD200795280095F5BC /* voicenaci_sound6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound6.png; sourceTree = "<group>"; };
-		460C76BE2007952A0095F5BC /* voicenaci_sound24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound24.png; sourceTree = "<group>"; };
-		460C76BF2007952C0095F5BC /* voicenaci_sound25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound25.png; sourceTree = "<group>"; };
-		460C76C0200795300095F5BC /* voicenaci_sound28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound28.png; sourceTree = "<group>"; };
-		460C76C1200795330095F5BC /* voicenaci_sound18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound18.png; sourceTree = "<group>"; };
-		460C76C2200795360095F5BC /* voicenaci_sound2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound2.png; sourceTree = "<group>"; };
-		460C76C32007953B0095F5BC /* voicenaci_sound11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound11.png; sourceTree = "<group>"; };
-		460C76C42007953E0095F5BC /* voicenaci_sound15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound15.png; sourceTree = "<group>"; };
-		460C76C5200795410095F5BC /* voicenaci_sound19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound19.png; sourceTree = "<group>"; };
-		460C76C6200795440095F5BC /* voicenaci_sound21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound21.png; sourceTree = "<group>"; };
-		460C76C7200795470095F5BC /* voicenaci_sound12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound12.png; sourceTree = "<group>"; };
-		460C76C8200795490095F5BC /* voicenaci_sound13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound13.png; sourceTree = "<group>"; };
-		460C76C92007954B0095F5BC /* voicenaci_sound29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound29.png; sourceTree = "<group>"; };
-		460C76CA2007954D0095F5BC /* voicenaci_sound27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound27.png; sourceTree = "<group>"; };
-		460C76CB2007954E0095F5BC /* voicenaci_sound0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound0.png; sourceTree = "<group>"; };
-		460C76CC2007954F0095F5BC /* voicenaci_sound1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound1.png; sourceTree = "<group>"; };
-		460C76CD200795500095F5BC /* voicenaci_sound8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound8.png; sourceTree = "<group>"; };
-		460C76CE200795520095F5BC /* voicenaci_sound14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound14.png; sourceTree = "<group>"; };
-		460C76CF200795530095F5BC /* voicenaci_sound17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound17.png; sourceTree = "<group>"; };
-		460C76D0200795540095F5BC /* voicenaci_sound5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound5.png; sourceTree = "<group>"; };
-		460C76D1200795550095F5BC /* voicenaci_sound23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound23.png; sourceTree = "<group>"; };
-		460C76D2200795570095F5BC /* voicenaci_sound4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound4.png; sourceTree = "<group>"; };
-		460C76D3200795580095F5BC /* voicenaci_sound22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound22.png; sourceTree = "<group>"; };
-		460C76D42007955B0095F5BC /* voicenaci_sound10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound10.png; sourceTree = "<group>"; };
-		460C76D52007955C0095F5BC /* voicenaci_sound9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voicenaci_sound9.png; sourceTree = "<group>"; };
 		461366092004642000C714F7 /* BaiduPanoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduPanoSDK.framework; sourceTree = "<group>"; };
 		4613660B2004642C00C714F7 /* BaiduPanoResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaiduPanoResource.bundle; sourceTree = "<group>"; };
 		4613660D2004C13F00C714F7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
@@ -1130,7 +1005,6 @@
 		461D366E1FECF21B00841454 /* play_page_needle 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_page_needle 副本.png"; sourceTree = "<group>"; };
 		461D366F1FECF21B00841454 /* play_page_needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_page_needle.png; sourceTree = "<group>"; };
 		461D36701FECF21B00841454 /* player_slider_playback_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_slider_playback_thumb@2x.png"; sourceTree = "<group>"; };
-		461D36871FF0EA0A00841454 /* 我在这.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我在这.png"; sourceTree = "<group>"; };
 		461D36911FF1EDE200841454 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		461D36921FF1EDE200841454 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		461D36941FF1EE7F00841454 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -1204,36 +1078,16 @@
 		461D37101FF4DB2E00841454 /* mycar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mycar.png; sourceTree = "<group>"; };
 		461D37111FF4DB2E00841454 /* mycarCsqGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycarCsqGray@2x.png"; sourceTree = "<group>"; };
 		461D37121FF4DB2E00841454 /* mycarCsqRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycarCsqRed@2x.png"; sourceTree = "<group>"; };
-		461D37161FF4F4A700841454 /* 智能找车.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能找车.png"; sourceTree = "<group>"; };
 		461F5819200F22B6007D967A /* 指令_标题栏_历史记录_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指令_标题栏_历史记录_N.png"; sourceTree = "<group>"; };
 		461F581B20104ED3007D967A /* listenSoundVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listenSoundVC.h; sourceTree = "<group>"; };
 		461F581C20104ED3007D967A /* listenSoundVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listenSoundVC.m; sourceTree = "<group>"; };
 		461F581D20104ED3007D967A /* listenSoundVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = listenSoundVC.xib; sourceTree = "<group>"; };
 		461F582020108212007D967A /* 录音_内容区_录音图标_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "录音_内容区_录音图标_N.png"; sourceTree = "<group>"; };
-		461F582220109D36007D967A /* main_mymic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_mymic.png; sourceTree = "<group>"; };
 		4636E07F2015CAE600A316C6 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
 		4636E0802015CAE600A316C6 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
 		4636E0BC20172A3B00A316C6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		4636E0C1201ACEAF00A316C6 /* APP_主页_位置服务_定位_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_位置服务_定位_N.png"; sourceTree = "<group>"; };
-		4636E0C2201ACEC400A316C6 /* APP_主页_音乐_播放进度条1_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_播放进度条1_N.png"; sourceTree = "<group>"; };
-		4636E0C3201ACEC800A316C6 /* APP_主页_音乐_播放进度条2_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_播放进度条2_N.png"; sourceTree = "<group>"; };
-		4636E0C4201ACEC900A316C6 /* APP_主页_音乐_底图_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_底图_N.png"; sourceTree = "<group>"; };
-		4636E0C5201ACECA00A316C6 /* APP_主页_音乐_暂停_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_暂停_N.png"; sourceTree = "<group>"; };
-		4636E0C6201ACECF00A316C6 /* APP_主页_音乐_暂停_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_暂停_P.png"; sourceTree = "<group>"; };
-		4636E0C7201ACED000A316C6 /* APP_主页_音乐_专辑显示1_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_专辑显示1_N.png"; sourceTree = "<group>"; };
-		4636E0C8201ACED000A316C6 /* APP_主页_new1_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_new1_28.png"; sourceTree = "<group>"; };
-		4636E0CA201ACED200A316C6 /* APP_主页_音乐_播放_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_播放_N.png"; sourceTree = "<group>"; };
-		4636E0CB201ACED200A316C6 /* APP_主页_音乐_播放_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_播放_P.png"; sourceTree = "<group>"; };
-		4636E0CC201ACED300A316C6 /* APP_主页_位置服务_底图_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_位置服务_底图_N.png"; sourceTree = "<group>"; };
-		4636E0CD201ACED400A316C6 /* APP_主页_音乐_播放进度条滑块_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_播放进度条滑块_N.png"; sourceTree = "<group>"; };
-		4636E0CE201ACED400A316C6 /* APP_主页_音乐_上一个_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_上一个_N.png"; sourceTree = "<group>"; };
-		4636E0CF201ACED500A316C6 /* APP_主页_音乐_下一个_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_下一个_N.png"; sourceTree = "<group>"; };
-		4636E0D0201ACED500A316C6 /* APP_主页_音乐_上一个_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_上一个_P.png"; sourceTree = "<group>"; };
-		4636E0D1201ACED600A316C6 /* APP_主页_音乐_下一个_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_下一个_P.png"; sourceTree = "<group>"; };
 		4636E0E8201B256E00A316C6 /* ProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
 		4636E0E9201B256E00A316C6 /* ProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
-		4636E0EB201B324900A316C6 /* 音乐_专辑显示区域_没有专辑显示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐_专辑显示区域_没有专辑显示.png"; sourceTree = "<group>"; };
-		4636E0ED201B4E9A00A316C6 /* music_bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_bg3.png; sourceTree = "<group>"; };
 		4641146C2178AD9600B79378 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464192101FDE366E0000E119 /* FHZL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHZL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464192141FDE366E0000E119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1300,7 +1154,6 @@
 		464192911FDE37460000E119 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
 		464192921FDE37460000E119 /* UITableView+WFEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WFEmpty.h"; sourceTree = "<group>"; };
 		464192931FDE37460000E119 /* UITableView+WFEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WFEmpty.m"; sourceTree = "<group>"; };
-		4641929E1FDE38F10000E119 /* 120*120弃用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "120*120弃用.png"; sourceTree = "<group>"; };
 		4641929F1FDE38F10000E119 /* 按钮_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮_N.png"; sourceTree = "<group>"; };
 		464192A01FDE38F10000E119 /* 按钮_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮_P.png"; sourceTree = "<group>"; };
 		464192A11FDE38F10000E119 /* 标题栏_返回_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题栏_返回_N.png"; sourceTree = "<group>"; };
@@ -1322,10 +1175,6 @@
 		464192B11FDE38F10000E119 /* APP_主页_扫码_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_扫码_P.png"; sourceTree = "<group>"; };
 		464192B21FDE38F10000E119 /* APP_注册_1_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_注册_1_N.png"; sourceTree = "<group>"; };
 		464192B31FDE38F10000E119 /* APP_注册_1_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_注册_1_P.png"; sourceTree = "<group>"; };
-		464192B41FDE38F10000E119 /* DirnkGlassBottonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DirnkGlassBottonImage.png; sourceTree = "<group>"; };
-		464192B51FDE38F10000E119 /* maijia1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maijia1.png; sourceTree = "<group>"; };
-		464192B61FDE38F10000E119 /* wangwnag1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wangwnag1.png; sourceTree = "<group>"; };
-		464192B71FDE38F10000E119 /* yifu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yifu.png; sourceTree = "<group>"; };
 		464192D21FDE39730000E119 /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
 		464192D31FDE39730000E119 /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
 		464192D41FDE39730000E119 /* carModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carModel.h; sourceTree = "<group>"; };
@@ -1337,9 +1186,6 @@
 		464192E61FDE39730000E119 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		464192E71FDE39730000E119 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		464192E81FDE39730000E119 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
-		464192E91FDE39730000E119 /* SearchBTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBTVC.h; sourceTree = "<group>"; };
-		464192EA1FDE39730000E119 /* SearchBTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBTVC.m; sourceTree = "<group>"; };
-		464192EB1FDE39730000E119 /* SearchBTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchBTVC.xib; sourceTree = "<group>"; };
 		464192EC1FDE39730000E119 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		464192ED1FDE39730000E119 /* User.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = User.mm; sourceTree = "<group>"; };
 		464192EE1FDE39730000E119 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
@@ -1642,8 +1488,6 @@
 		467DB9BA205BB2DD0036151F /* 车辆追踪_内容区_定位_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "车辆追踪_内容区_定位_N.png"; sourceTree = "<group>"; };
 		467DB9BB205BB2DE0036151F /* 车辆追踪_内容区_导航_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "车辆追踪_内容区_导航_P.png"; sourceTree = "<group>"; };
 		467DB9BC205BB2DF0036151F /* 车辆追踪_内容区_导航_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "车辆追踪_内容区_导航_N.png"; sourceTree = "<group>"; };
-		468E2CC520A96BAE0095E181 /* APP_主页_位置服务_底图_N2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_位置服务_底图_N2.png"; sourceTree = "<group>"; };
-		468E2CC720A96BCF0095E181 /* APP_主页_音乐_底图红_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_底图红_N.png"; sourceTree = "<group>"; };
 		469CA4802101D42900DE6BDA /* device_info_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = device_info_7.png; sourceTree = "<group>"; };
 		469CA4822101D5F100DE6BDA /* 开机画面4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开机画面4.png"; sourceTree = "<group>"; };
 		46A8904B209BE878006E00A0 /* 定位_拍照_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位_拍照_N.png"; sourceTree = "<group>"; };
@@ -1696,9 +1540,6 @@
 		46B7C17B1FE8EDDA0077F25B /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
 		46B7C17D1FE8EE140077F25B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		46B7C17E1FE8EE140077F25B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		46B8FA162045040B00D31C41 /* APP_主页_音乐_音乐1_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_音乐_音乐1_N.png"; sourceTree = "<group>"; };
-		46B8FA1A2045050800D31C41 /* APP_主页_图拍_底图_图拍N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_图拍_底图_图拍N.png"; sourceTree = "<group>"; };
-		46B8FA1C2045054B00D31C41 /* APP_主页_图拍_图片_图拍N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_图拍_图片_图拍N.png"; sourceTree = "<group>"; };
 		46B8FA1F20455BF000D31C41 /* APNSetingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APNSetingViewController.xib; sourceTree = "<group>"; };
 		46B8FA2020455BF000D31C41 /* APNSetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNSetingViewController.h; sourceTree = "<group>"; };
 		46B8FA2120455BF100D31C41 /* APNSetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNSetingViewController.m; sourceTree = "<group>"; };
@@ -1807,7 +1648,6 @@
 		46D315692029968300FA2F3D /* CSQPhotoPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSQPhotoPreviewController.h; sourceTree = "<group>"; };
 		46D3156A2029968300FA2F3D /* CSQPhotoPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSQPhotoPreviewController.m; sourceTree = "<group>"; };
 		46D3156D202AE36400FA2F3D /* searchBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchBack.png; sourceTree = "<group>"; };
-		46D31571202B062F00FA2F3D /* APP_主页_随拍_底图_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP_主页_随拍_底图_N.png"; sourceTree = "<group>"; };
 		46D31574202BEE4500FA2F3D /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
 		46D31575202BEE4500FA2F3D /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
 		46D31576202BEE4500FA2F3D /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
@@ -1835,11 +1675,6 @@
 		46D377D9204E434800847B06 /* MAIN_日历_左翻_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MAIN_日历_左翻_N.png"; sourceTree = "<group>"; };
 		46DD54D520F5B93E00D591D1 /* Gt121Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gt121Model.h; sourceTree = "<group>"; };
 		46DD54D620F5B93E00D591D1 /* Gt121Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gt121Model.m; sourceTree = "<group>"; };
-		46E9A7D32091ADCC00A1DF1E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		46E9A7D52091AE1100A1DF1E /* Default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@3x.png"; sourceTree = "<group>"; };
-		46E9A7D72091AE4D00A1DF1E /* Default568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default568@2x.png"; sourceTree = "<group>"; };
-		46E9A7D92091AE7A00A1DF1E /* Default667@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default667@2x.png"; sourceTree = "<group>"; };
-		46E9A7DB2091AE9E00A1DF1E /* Default736@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default736@2x.png"; sourceTree = "<group>"; };
 		46F9E85B20464BAB0002C1C6 /* FlowQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowQueryViewController.h; sourceTree = "<group>"; };
 		46F9E85C20464BAB0002C1C6 /* FlowQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowQueryViewController.m; sourceTree = "<group>"; };
 		46F9E85F2046561E0002C1C6 /* JSToOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSToOC.html; sourceTree = "<group>"; };
@@ -2029,7 +1864,6 @@
 		460C7343200740970095F5BC /* KDXFdialogue讯飞语音+导航 */ = {
 			isa = PBXGroup;
 			children = (
-				460C7699200793A30095F5BC /* image */,
 				460C736A200748FE0095F5BC /* pcmPlayerCode */,
 			);
 			name = "KDXFdialogue讯飞语音+导航";
@@ -2216,55 +2050,6 @@
 			children = (
 			);
 			path = SDLib_resource;
-			sourceTree = "<group>";
-		};
-		460C7699200793A30095F5BC /* image */ = {
-			isa = PBXGroup;
-			children = (
-				460C76CB2007954E0095F5BC /* voicenaci_sound0.png */,
-				460C76CC2007954F0095F5BC /* voicenaci_sound1.png */,
-				460C76C2200795360095F5BC /* voicenaci_sound2.png */,
-				460C76B8200795190095F5BC /* voicenaci_sound3.png */,
-				460C76D2200795570095F5BC /* voicenaci_sound4.png */,
-				460C76D0200795540095F5BC /* voicenaci_sound5.png */,
-				460C76BD200795280095F5BC /* voicenaci_sound6.png */,
-				460C76B92007951E0095F5BC /* voicenaci_sound7.png */,
-				460C76CD200795500095F5BC /* voicenaci_sound8.png */,
-				460C76D52007955C0095F5BC /* voicenaci_sound9.png */,
-				460C76D42007955B0095F5BC /* voicenaci_sound10.png */,
-				460C76C32007953B0095F5BC /* voicenaci_sound11.png */,
-				460C76C7200795470095F5BC /* voicenaci_sound12.png */,
-				460C76C8200795490095F5BC /* voicenaci_sound13.png */,
-				460C76CE200795520095F5BC /* voicenaci_sound14.png */,
-				460C76C42007953E0095F5BC /* voicenaci_sound15.png */,
-				460C76BB200795220095F5BC /* voicenaci_sound16.png */,
-				460C76CF200795530095F5BC /* voicenaci_sound17.png */,
-				460C76C1200795330095F5BC /* voicenaci_sound18.png */,
-				460C76C5200795410095F5BC /* voicenaci_sound19.png */,
-				460C76BA2007951F0095F5BC /* voicenaci_sound20.png */,
-				460C76C6200795440095F5BC /* voicenaci_sound21.png */,
-				460C76D3200795580095F5BC /* voicenaci_sound22.png */,
-				460C76D1200795550095F5BC /* voicenaci_sound23.png */,
-				460C76BE2007952A0095F5BC /* voicenaci_sound24.png */,
-				460C76BF2007952C0095F5BC /* voicenaci_sound25.png */,
-				460C76BC200795260095F5BC /* voicenaci_sound26.png */,
-				460C76CA2007954D0095F5BC /* voicenaci_sound27.png */,
-				460C76C0200795300095F5BC /* voicenaci_sound28.png */,
-				460C76C92007954B0095F5BC /* voicenaci_sound29.png */,
-				460C76A5200794320095F5BC /* 主界面_1.png */,
-				460C769E2007942D0095F5BC /* 主界面_2.png */,
-				460C769F2007942D0095F5BC /* 主界面_3.png */,
-				460C76A3200794300095F5BC /* 主界面_4.png */,
-				460C76A12007942F0095F5BC /* 主界面_5.png */,
-				460C76A02007942E0095F5BC /* 主界面_6.png */,
-				460C76A6200794320095F5BC /* 主界面_7.png */,
-				460C76A22007942F0095F5BC /* 主界面_8.png */,
-				460C76A4200794310095F5BC /* 主界面_9.png */,
-				460C76A7200794330095F5BC /* 主界面_10.png */,
-				461F582220109D36007D967A /* main_mymic.png */,
-				460C769A200793E10095F5BC /* 主界面_语音_N.png */,
-			);
-			path = image;
 			sourceTree = "<group>";
 		};
 		460C76F920085A930095F5BC /* Location（定位） */ = {
@@ -2675,36 +2460,6 @@
 			path = SSKeychain;
 			sourceTree = "<group>";
 		};
-		4636E0C0201ACE8000A316C6 /* homeImage */ = {
-			isa = PBXGroup;
-			children = (
-				468E2CC720A96BCF0095E181 /* APP_主页_音乐_底图红_N.png */,
-				468E2CC520A96BAE0095E181 /* APP_主页_位置服务_底图_N2.png */,
-				46D31571202B062F00FA2F3D /* APP_主页_随拍_底图_N.png */,
-				4636E0ED201B4E9A00A316C6 /* music_bg3.png */,
-				4636E0CC201ACED300A316C6 /* APP_主页_位置服务_底图_N.png */,
-				4636E0C1201ACEAF00A316C6 /* APP_主页_位置服务_定位_N.png */,
-				4636E0CA201ACED200A316C6 /* APP_主页_音乐_播放_N.png */,
-				4636E0CB201ACED200A316C6 /* APP_主页_音乐_播放_P.png */,
-				4636E0C2201ACEC400A316C6 /* APP_主页_音乐_播放进度条1_N.png */,
-				4636E0C3201ACEC800A316C6 /* APP_主页_音乐_播放进度条2_N.png */,
-				4636E0CD201ACED400A316C6 /* APP_主页_音乐_播放进度条滑块_N.png */,
-				4636E0C4201ACEC900A316C6 /* APP_主页_音乐_底图_N.png */,
-				4636E0CE201ACED400A316C6 /* APP_主页_音乐_上一个_N.png */,
-				4636E0D0201ACED500A316C6 /* APP_主页_音乐_上一个_P.png */,
-				4636E0CF201ACED500A316C6 /* APP_主页_音乐_下一个_N.png */,
-				4636E0D1201ACED600A316C6 /* APP_主页_音乐_下一个_P.png */,
-				4636E0C5201ACECA00A316C6 /* APP_主页_音乐_暂停_N.png */,
-				4636E0C6201ACECF00A316C6 /* APP_主页_音乐_暂停_P.png */,
-				4636E0C7201ACED000A316C6 /* APP_主页_音乐_专辑显示1_N.png */,
-				4636E0C8201ACED000A316C6 /* APP_主页_new1_28.png */,
-				46B8FA162045040B00D31C41 /* APP_主页_音乐_音乐1_N.png */,
-				46B8FA1A2045050800D31C41 /* APP_主页_图拍_底图_图拍N.png */,
-				46B8FA1C2045054B00D31C41 /* APP_主页_图拍_图片_图拍N.png */,
-			);
-			name = homeImage;
-			sourceTree = "<group>";
-		};
 		464192071FDE366E0000E119 = {
 			isa = PBXGroup;
 			children = (
@@ -2946,17 +2701,9 @@
 				465E167D20EF76BA00776B43 /* SIMka_N.png */,
 				465E167E20EF76C800776B43 /* SIMka_P.png */,
 				46AAF194207E3D1700F34FE0 /* 微众世界_头像0.png */,
-				46E9A7D32091ADCC00A1DF1E /* Default@2x.png */,
-				46E9A7D52091AE1100A1DF1E /* Default@3x.png */,
-				46E9A7D72091AE4D00A1DF1E /* Default568@2x.png */,
-				46E9A7D92091AE7A00A1DF1E /* Default667@2x.png */,
-				46E9A7DB2091AE9E00A1DF1E /* Default736@2x.png */,
 				46F9E87E2047D1250002C1C6 /* 壁纸背景.png */,
 				46D3156D202AE36400FA2F3D /* searchBack.png */,
 				46574EE420245AD600077E32 /* testPicture.png */,
-				4636E0EB201B324900A316C6 /* 音乐_专辑显示区域_没有专辑显示.png */,
-				460C76922007676C0095F5BC /* qq.wav */,
-				460C76902007675B0095F5BC /* speak_end.mp3 */,
 				460C7341200735D70095F5BC /* up1.png */,
 				460C733F200735CF0095F5BC /* down1.png */,
 				465FF39D1FFE0AC300E2C6EE /* 分享Image */,
@@ -2991,7 +2738,6 @@
 				461D364A1FECE0F100841454 /* ui2_user_icon11.png */,
 				461D364B1FECE0F100841454 /* ui2_user_icon12.png */,
 				46C65A331FE7A4CF00B76F72 /* 120*120.png */,
-				4641929E1FDE38F10000E119 /* 120*120弃用.png */,
 				4641929F1FDE38F10000E119 /* 按钮_N.png */,
 				464192A01FDE38F10000E119 /* 按钮_P.png */,
 				464192A11FDE38F10000E119 /* 标题栏_返回_N.png */,
@@ -3014,12 +2760,6 @@
 				464192B11FDE38F10000E119 /* APP_主页_扫码_P.png */,
 				464192B21FDE38F10000E119 /* APP_注册_1_N.png */,
 				464192B31FDE38F10000E119 /* APP_注册_1_P.png */,
-				464192B41FDE38F10000E119 /* DirnkGlassBottonImage.png */,
-				464192B51FDE38F10000E119 /* maijia1.png */,
-				464192B61FDE38F10000E119 /* wangwnag1.png */,
-				464192B71FDE38F10000E119 /* yifu.png */,
-				461D36871FF0EA0A00841454 /* 我在这.png */,
-				461D37161FF4F4A700841454 /* 智能找车.png */,
 				46AA64662003186B00F86E37 /* 小红旗@2x.png */,
 				46AA64672003186B00F86E37 /* 小红旗@3x.png */,
 			);
@@ -3214,7 +2954,6 @@
 		46475DCF2011E7D100698D34 /* HomeVC主页 */ = {
 			isa = PBXGroup;
 			children = (
-				4636E0C0201ACE8000A316C6 /* homeImage */,
 				46475DD12011E83200698D34 /* 设备绑定 */,
 			);
 			name = "HomeVC主页";
@@ -3253,20 +2992,9 @@
 			name = "设备绑定";
 			sourceTree = "<group>";
 		};
-		46475DD22011E85500698D34 /* 蓝牙搜索 */ = {
-			isa = PBXGroup;
-			children = (
-				464192E91FDE39730000E119 /* SearchBTVC.h */,
-				464192EA1FDE39730000E119 /* SearchBTVC.m */,
-				464192EB1FDE39730000E119 /* SearchBTVC.xib */,
-			);
-			name = "蓝牙搜索";
-			sourceTree = "<group>";
-		};
 		46475DD32011E87700698D34 /* Function 功能 */ = {
 			isa = PBXGroup;
 			children = (
-				46475DD22011E85500698D34 /* 蓝牙搜索 */,
 				460C7343200740970095F5BC /* KDXFdialogue讯飞语音+导航 */,
 				46C65A1D1FE7684D00B76F72 /* 定位器 */,
 				46C659AB1FE2525B00B76F72 /* UserCenter（用户中心） */,
@@ -4176,18 +3904,12 @@
 				461D36081FE93C3800841454 /* 设备信息_内容区_APN_P.png in Resources */,
 				46F9E87B20467C400002C1C6 /* WorkModeSele.xib in Resources */,
 				464192BE1FDE38F10000E119 /* 标题栏.png in Resources */,
-				460C76E22007955D0095F5BC /* voicenaci_sound15.png in Resources */,
 				461D35841FE90CB200841454 /* gt3.png in Resources */,
 				461366512005EEEF00C714F7 /* 车辆追踪_内容区_路况_N.png in Resources */,
-				468E2CC620A96BAE0095E181 /* APP_主页_位置服务_底图_N2.png in Resources */,
 				461366542005EEEF00C714F7 /* 车辆追踪_内容区_卫星和平面_N.png in Resources */,
 				461366532005EEEF00C714F7 /* 警报信息过滤_内容区_确认_N.png in Resources */,
-				460C76A8200794330095F5BC /* 主界面_2.png in Resources */,
-				460C76D92007955C0095F5BC /* voicenaci_sound16.png in Resources */,
 				461D35FE1FE93C3800841454 /* 设备信息_标题区_编辑_N.png in Resources */,
-				468E2CC820A96BCF0095E181 /* APP_主页_音乐_底图红_N.png in Resources */,
 				461D35E01FE93C2900841454 /* 电子围栏_内容区_红色_P.png in Resources */,
-				460C769B200793E10095F5BC /* 主界面_语音_N.png in Resources */,
 				46C659CF1FE25E1700B76F72 /* 8jiepin.png in Resources */,
 				461D35831FE90CB200841454 /* gt2.png in Resources */,
 				46C6599D1FE22BBD00B76F72 /* LICENSE in Resources */,
@@ -4196,7 +3918,6 @@
 				465FF3411FFB264000E2C6EE /* 单辆车-N.png in Resources */,
 				465E167C20EF3AE800776B43 /* GT121HuiChuanVC.xib in Resources */,
 				46C65A031FE36ECE00B76F72 /* AboutUsItemCell.xib in Resources */,
-				46B8FA1B2045050800D31C41 /* APP_主页_图拍_底图_图拍N.png in Resources */,
 				46CCDF9E2000C6D5009B9A4B /* 车子类型_5.png in Resources */,
 				460C76802007629D0095F5BC /* sdChatFaceEmoji.plist in Resources */,
 				461D361A1FE93C3E00841454 /* 设置围栏_内容区_减_N.png in Resources */,
@@ -4209,9 +3930,7 @@
 				46CCDFA02000C6D5009B9A4B /* 车子类型_7.png in Resources */,
 				46C65A3C1FE7DBF500B76F72 /* CarListCell.xib in Resources */,
 				46CCDF9B2000C6D5009B9A4B /* 车子类型_2.png in Resources */,
-				460C76EE2007955D0095F5BC /* voicenaci_sound5.png in Resources */,
 				46CCDF9A2000C6D5009B9A4B /* 车子类型_1.png in Resources */,
-				460C76B1200794330095F5BC /* 主界面_10.png in Resources */,
 				46F9E88620496BCF0002C1C6 /* 汽车定位1_03.png in Resources */,
 				461D35E21FE93C2900841454 /* 电子围栏_内容区_围栏图标_N.png in Resources */,
 				461366522005EEEF00C714F7 /* 车辆追踪_内容区_卫星和平面_P.png in Resources */,
@@ -4224,31 +3943,24 @@
 				46C659F61FE36E9100B76F72 /* MapSettingItemCell.xib in Resources */,
 				4613661F2005BDFB00C714F7 /* noPictureCell.xib in Resources */,
 				465E167F20EF76C900776B43 /* SIMka_N.png in Resources */,
-				4636E0D3201ACED700A316C6 /* APP_主页_音乐_播放进度条1_N.png in Resources */,
 				46C65A3E1FE7DE7700B76F72 /* 列表_10_P.png in Resources */,
 				461D36231FE93CB800841454 /* FenceCell.xib in Resources */,
-				460C76AA200794330095F5BC /* 主界面_6.png in Resources */,
 				46AAF191207B64B800F34FE0 /* weibo@3x.png in Resources */,
 				464192BF1FDE38F10000E119 /* 开机画面.png in Resources */,
-				46E9A7D62091AE1200A1DF1E /* Default@3x.png in Resources */,
 				461366442005EEEF00C714F7 /* 指令_内容区_参数同步_P.png in Resources */,
 				461D365F1FECF02500841454 /* APP_个人中心_地图设置_10.png in Resources */,
 				461D35BC1FE9163B00841454 /* 轨迹回放_内容区_播放_N.png in Resources */,
 				46D3156E202AE36400FA2F3D /* searchBack.png in Resources */,
 				46C6598D1FE21D8F00B76F72 /* ForgetPassWord.xib in Resources */,
-				460C76E42007955D0095F5BC /* voicenaci_sound21.png in Resources */,
 				4651B8BA2105719E0081C1C3 /* 壁纸1.png in Resources */,
 				461D35981FE90CB200841454 /* 16_N.png in Resources */,
 				4613665F200603B000C714F7 /* instructionCell.xib in Resources */,
 				461D36A81FF22EF400841454 /* 底部_警报信息_N.png in Resources */,
 				46F9E8842047D25C0002C1C6 /* 120*120white.png in Resources */,
-				464192CE1FDE38F10000E119 /* DirnkGlassBottonImage.png in Resources */,
 				46C65A4F1FE7E38200B76F72 /* 列表_6_N.png in Resources */,
 				461D36731FECF21B00841454 /* ic_play_btn_next_pressed.png in Resources */,
 				46A8904C209BE878006E00A0 /* 定位_拍照_N.png in Resources */,
-				4636E0DD201ACED700A316C6 /* APP_主页_位置服务_底图_N.png in Resources */,
 				461D36181FE93C3E00841454 /* 设置围栏_内容区_加_N.png in Resources */,
-				460C76912007675C0095F5BC /* speak_end.mp3 in Resources */,
 				46C65A541FE7E38200B76F72 /* 列表_8_P.png in Resources */,
 				461D361E1FE93C3E00841454 /* 设置围栏_内容区_未选_N.png in Resources */,
 				461D35911FE90CB200841454 /* 12_N.png in Resources */,
@@ -4266,29 +3978,23 @@
 				461D361D1FE93C3E00841454 /* 设置围栏_内容区_进度条_P.png in Resources */,
 				461D363E1FEBB15000841454 /* FenceSetVC.xib in Resources */,
 				461D35ED1FE93C3100841454 /* 警报信息_内容区_底盘_N.png in Resources */,
-				4636E0DB201ACED700A316C6 /* APP_主页_音乐_播放_N.png in Resources */,
 				461366472005EEEF00C714F7 /* 指令_内容区_参数同步_N.png in Resources */,
 				461D35DE1FE93C2900841454 /* 电子围栏_内容区_定位_N.png in Resources */,
 				461D367C1FECF21B00841454 /* player_slider_playback_thumb@2x.png in Resources */,
 				461D36591FECE5F300841454 /* 人工导航_弹出栏_列表下载_N.png in Resources */,
 				461D36AA1FF22EF400841454 /* 底部_列表_N.png in Resources */,
-				460C76F02007955D0095F5BC /* voicenaci_sound4.png in Resources */,
 				461D35F01FE93C3100841454 /* 警报信息_内容区_搜索_N.png in Resources */,
 				46D377DA204E434900847B06 /* MAIN_日历_右翻_N.png in Resources */,
 				464192FB1FDE39730000E119 /* loginVC.xib in Resources */,
 				46CCDF9F2000C6D5009B9A4B /* 车子类型_6.png in Resources */,
 				46AAF18D207B64B800F34FE0 /* wechat_fav@3x.png in Resources */,
-				460C76ED2007955D0095F5BC /* voicenaci_sound17.png in Resources */,
 				46AAF185207B64B800F34FE0 /* qzone@2x.png in Resources */,
 				461D35A61FE9163500841454 /* 车辆追踪_标题栏_分享_P.png in Resources */,
 				461D364E1FECE0F100841454 /* ui2_user_icon3.png in Resources */,
 				46C65A101FE36F2D00B76F72 /* NaviCenterViewController.xib in Resources */,
 				461D358B1FE90CB200841454 /* 9_N.png in Resources */,
 				464192B91FDE38F10000E119 /* 按钮_N.png in Resources */,
-				460C76AD200794330095F5BC /* 主界面_4.png in Resources */,
-				460C76AE200794330095F5BC /* 主界面_9.png in Resources */,
 				467DB9BF205BB2DF0036151F /* 车辆追踪_内容区_导航_P.png in Resources */,
-				460C76EF2007955D0095F5BC /* voicenaci_sound23.png in Resources */,
 				461D37151FF4DB2E00841454 /* mycarCsqRed@2x.png in Resources */,
 				461D36031FE93C3800841454 /* 设备信息_内容区_解除绑定_N.png in Resources */,
 				461366212005BE0600C714F7 /* MAIN3_内容区_下一级_N.png in Resources */,
@@ -4296,7 +4002,6 @@
 				461366712006170100C714F7 /* AlarmScreenVC.xib in Resources */,
 				460C7342200735D70095F5BC /* up1.png in Resources */,
 				46AAF18E207B64B800F34FE0 /* wechat_moment@2x.png in Resources */,
-				460C76E12007955D0095F5BC /* voicenaci_sound11.png in Resources */,
 				461D36B41FF24E7600841454 /* ShowCarView.xib in Resources */,
 				46C65A551FE7E38200B76F72 /* 列表_9_N.png in Resources */,
 				464192C91FDE38F10000E119 /* APP_主页_底部功能区托盘.png in Resources */,
@@ -4305,41 +4010,30 @@
 				46574EE520245AD700077E32 /* testPicture.png in Resources */,
 				465FF33E1FFB263300E2C6EE /* 多辆车-P.png in Resources */,
 				461F581A200F22B6007D967A /* 指令_标题栏_历史记录_N.png in Resources */,
-				460C76DF2007955D0095F5BC /* voicenaci_sound18.png in Resources */,
-				4636E0E1201ACED700A316C6 /* APP_主页_音乐_上一个_P.png in Resources */,
 				46AAF184207B64B800F34FE0 /* qq@3x.png in Resources */,
 				464C1C20204E720F00149E50 /* ScanCodeTableViewCell.xib in Resources */,
 				461D36551FECE0F100841454 /* ui2_user_icon10.png in Resources */,
 				461D364D1FECE0F100841454 /* ui2_user_icon2.png in Resources */,
 				461366482005EEEF00C714F7 /* 指令历史_内容区_失败_N.png in Resources */,
 				464192BD1FDE38F10000E119 /* 标题栏_向右.png in Resources */,
-				4636E0D2201ACED700A316C6 /* APP_主页_位置服务_定位_N.png in Resources */,
-				460C76E62007955D0095F5BC /* voicenaci_sound13.png in Resources */,
 				461D36721FECF21B00841454 /* ic_launcher.png in Resources */,
 				4613664D2005EEEF00C714F7 /* 指令3_内容区_框.png in Resources */,
 				461D35DD1FE93C2900841454 /* 电子围栏_标题栏_添加_P.png in Resources */,
-				460C76B0200794330095F5BC /* 主界面_7.png in Resources */,
 				461D35971FE90CB200841454 /* 15_P.png in Resources */,
 				461D36AD1FF22EF400841454 /* 底部_声音监听_P.png in Resources */,
-				4636E0D7201ACED700A316C6 /* APP_主页_音乐_暂停_P.png in Resources */,
 				46AAF189207B64B800F34FE0 /* twitter@3x.png in Resources */,
 				465FF3831FFE01A400E2C6EE /* ShareChooseViewController.xib in Resources */,
 				467DB9BD205BB2DF0036151F /* 车辆追踪_内容区_定位_P.png in Resources */,
 				46CCDF9C2000C6D5009B9A4B /* 车子类型_3.png in Resources */,
 				460C7303200713BE0095F5BC /* recordCell.xib in Resources */,
 				461D36771FECF21B00841454 /* play_page_default_bg.jpg in Resources */,
-				46E9A7D82091AE4D00A1DF1E /* Default568@2x.png in Resources */,
-				4636E0EE201B4E9B00A316C6 /* music_bg3.png in Resources */,
 				4613664F2005EEEF00C714F7 /* 警报信息过滤_内容区_未选_N.png in Resources */,
 				461D35931FE90CB200841454 /* 13_N.png in Resources */,
 				461D36071FE93C3800841454 /* 设备信息_内容区_APN_N.png in Resources */,
-				4636E0D5201ACED700A316C6 /* APP_主页_音乐_底图_N.png in Resources */,
 				465E168020EF76C900776B43 /* SIMka_P.png in Resources */,
 				46C65A051FE36ECE00B76F72 /* AboutUsViewController.xib in Resources */,
 				461D35A71FE9163500841454 /* 车辆追踪_标题栏_列表_N.png in Resources */,
-				464192B81FDE38F10000E119 /* 120*120弃用.png in Resources */,
 				461D36A61FF22EF400841454 /* 底部_定位_N.png in Resources */,
-				460C76DE2007955C0095F5BC /* voicenaci_sound28.png in Resources */,
 				461366142004D63900C714F7 /* back_icon@2x.png in Resources */,
 				461D35A91FE9163500841454 /* 车辆追踪_内容区_车不在线_N.png in Resources */,
 				461D36561FECE0F100841454 /* ui2_user_icon11.png in Resources */,
@@ -4353,16 +4047,11 @@
 				46574EBF2021A64F00077E32 /* LPDImagePickerController.bundle in Resources */,
 				461D36751FECF21B00841454 /* ic_play_btn_play.png in Resources */,
 				461D35C11FE9163B00841454 /* 轨迹回放_内容区_快进_N.png in Resources */,
-				46E9A7DC2091AE9E00A1DF1E /* Default736@2x.png in Resources */,
-				460C76DC2007955C0095F5BC /* voicenaci_sound24.png in Resources */,
 				46C65A501FE7E38200B76F72 /* 列表_6_P.png in Resources */,
-				4636E0D4201ACED700A316C6 /* APP_主页_音乐_播放进度条2_N.png in Resources */,
 				461D35A51FE9163500841454 /* 车辆追踪_标题栏_分享_N.png in Resources */,
-				460C76EC2007955D0095F5BC /* voicenaci_sound14.png in Resources */,
 				461D35CE1FE9363A00841454 /* TrackPlayBackVC.xib in Resources */,
 				46C65A271FE7689C00B76F72 /* CarListViewController.xib in Resources */,
 				461D35A81FE9163500841454 /* 车辆追踪_标题栏_列表_P.png in Resources */,
-				460C76D62007955C0095F5BC /* voicenaci_sound3.png in Resources */,
 				46C659E91FE3669200B76F72 /* ModifierPassword.xib in Resources */,
 				461D35F11FE93C3100841454 /* 警报信息_内容区_搜索_P.png in Resources */,
 				46C65A401FE7DF6A00B76F72 /* 列表_4_N.png in Resources */,
@@ -4376,19 +4065,13 @@
 				461D36391FEB92B700841454 /* CarInfoVC.xib in Resources */,
 				4666578A2063AF5800247F02 /* BoPhotoPicker.bundle in Resources */,
 				461D36791FECF21B00841454 /* play_page_disc.png in Resources */,
-				460C76DD2007955C0095F5BC /* voicenaci_sound25.png in Resources */,
 				461D364F1FECE0F100841454 /* ui2_user_icon4.png in Resources */,
 				461D35901FE90CB200841454 /* 11_P.png in Resources */,
 				461D36191FE93C3E00841454 /* 设置围栏_内容区_加_P.png in Resources */,
-				46E9A7DA2091AE7B00A1DF1E /* Default667@2x.png in Resources */,
 				461D35BA1FE9163B00841454 /* 轨迹回放_标题栏_日期_N.png in Resources */,
-				460C76F12007955D0095F5BC /* voicenaci_sound22.png in Resources */,
-				46E9A7D42091ADCC00A1DF1E /* Default@2x.png in Resources */,
 				461D35EF1FE93C3100841454 /* 警报信息_内容区_警报_N.png in Resources */,
-				460C76E02007955D0095F5BC /* voicenaci_sound2.png in Resources */,
 				46AAF181207B64B800F34FE0 /* messenger@2x.png in Resources */,
 				461D37141FF4DB2E00841454 /* mycarCsqGray@2x.png in Resources */,
-				4636E0E2201ACED700A316C6 /* APP_主页_音乐_下一个_P.png in Resources */,
 				461366292005C2B100C714F7 /* MAIN1_下一级_N.png in Resources */,
 				461D36041FE93C3800841454 /* 设备信息_内容区_解除绑定_P.png in Resources */,
 				461D35C41FE9163B00841454 /* 轨迹回放_内容区_暂停_P.png in Resources */,
@@ -4398,14 +4081,10 @@
 				461366552005EEEF00C714F7 /* 车辆追踪_内容区_街景_P.png in Resources */,
 				461D367B1FECF21B00841454 /* play_page_needle.png in Resources */,
 				467DB9C0205BB2DF0036151F /* 车辆追踪_内容区_导航_N.png in Resources */,
-				460C76A9200794330095F5BC /* 主界面_3.png in Resources */,
-				4636E0DC201ACED700A316C6 /* APP_主页_音乐_播放_P.png in Resources */,
 				461D36741FECF21B00841454 /* ic_play_btn_pause.png in Resources */,
 				461D367A1FECF21B00841454 /* play_page_needle 副本.png in Resources */,
-				460C76EB2007955D0095F5BC /* voicenaci_sound8.png in Resources */,
 				46C65A581FE7E39200B76F72 /* 列表_10_N.png in Resources */,
 				46CCDF9D2000C6D5009B9A4B /* 车子类型_4.png in Resources */,
-				464192FF1FDE39730000E119 /* SearchBTVC.xib in Resources */,
 				461D35BD1FE9163B00841454 /* 轨迹回放_内容区_播放_P.png in Resources */,
 				46C659E21FE2690D00B76F72 /* UserCenterOldVC.xib in Resources */,
 				461D36A91FF22EF400841454 /* 底部_警报信息_P.png in Resources */,
@@ -4415,11 +4094,9 @@
 				464192C51FDE38F10000E119 /* 线条.png in Resources */,
 				464192C11FDE38F10000E119 /* 扫描_N.png in Resources */,
 				464192CC1FDE38F10000E119 /* APP_注册_1_N.png in Resources */,
-				460C76D82007955C0095F5BC /* voicenaci_sound20.png in Resources */,
 				461D36EC1FF37C4300841454 /* LICENSE in Resources */,
 				4651B8B6210571590081C1C3 /* 开机画面3_3.png in Resources */,
 				46CCDF992000C6D5009B9A4B /* 车子类型_0.png in Resources */,
-				46B8FA1D2045054B00D31C41 /* APP_主页_图拍_图片_图拍N.png in Resources */,
 				464192CB1FDE38F10000E119 /* APP_主页_扫码_P.png in Resources */,
 				461D36761FECF21B00841454 /* ic_play_btn_prev_pressed.png in Resources */,
 				464192CA1FDE38F10000E119 /* APP_主页_扫码_N.png in Resources */,
@@ -4427,7 +4104,6 @@
 				46C65A221FE7688800B76F72 /* LocationVC.xib in Resources */,
 				461D358A1FE90CB200841454 /* 8_P.png in Resources */,
 				46B7C16A1FE8E8150077F25B /* zoomout_selected2d.png in Resources */,
-				460C76F32007955D0095F5BC /* voicenaci_sound9.png in Resources */,
 				461D35851FE90CB200841454 /* gt4.png in Resources */,
 				46475DCD2011DAE700698D34 /* BindDeviceVC.xib in Resources */,
 				46AAF18C207B64B800F34FE0 /* wechat_fav@2x.png in Resources */,
@@ -4444,13 +4120,10 @@
 				46AAF195207E3D1800F34FE0 /* 微众世界_头像0.png in Resources */,
 				46D377DC204E434900847B06 /* MAIN_日历_左翻_N.png in Resources */,
 				4613664B2005EEEF00C714F7 /* 车辆追踪_内容区_路况_P.png in Resources */,
-				460C76DA2007955C0095F5BC /* voicenaci_sound26.png in Resources */,
 				465FF35D1FFDD51600E2C6EE /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				461D370B1FF4DADB00841454 /* MAIN_0_车（720x1280）.png in Resources */,
 				46B7C16C1FE8E8B50077F25B /* MAIN2_位置_内容区_刷新_N.png in Resources */,
 				46C65A561FE7E38200B76F72 /* 列表_9_P.png in Resources */,
-				460C76E92007955D0095F5BC /* voicenaci_sound0.png in Resources */,
-				4636E0DF201ACED700A316C6 /* APP_主页_音乐_上一个_N.png in Resources */,
 				461D35BF1FE9163B00841454 /* 轨迹回放_内容区_进度条_N.png in Resources */,
 				461D35D41FE93B9200841454 /* FenceVC.xib in Resources */,
 				46B7C1691FE8E8150077F25B /* zoomin_selected2d.png in Resources */,
@@ -4458,25 +4131,19 @@
 				465FF3B21FFE0AD400E2C6EE /* 好友邀请_分享_N.png in Resources */,
 				46C65A4D1FE7E38200B76F72 /* 列表_5_N.png in Resources */,
 				461D362F1FEB86EC00841454 /* AlarmListVC.xib in Resources */,
-				46B8FA172045040C00D31C41 /* APP_主页_音乐_音乐1_N.png in Resources */,
 				4613660C2004642C00C714F7 /* BaiduPanoResource.bundle in Resources */,
-				460C76DB2007955C0095F5BC /* voicenaci_sound6.png in Resources */,
 				46C65A341FE7A4CF00B76F72 /* 120*120.png in Resources */,
 				46AA64682003186B00F86E37 /* 小红旗@2x.png in Resources */,
-				460C76932007676D0095F5BC /* qq.wav in Resources */,
 				46AAF180207B64B800F34FE0 /* jiguangVideoForTwitter.mp4 in Resources */,
 				461D36161FE93C3E00841454 /* 设置围栏_内容区_勾选_N.png in Resources */,
 				461D370F1FF4DB0D00841454 /* (54x39)car_D.png in Resources */,
 				46D316CD202BF54500FA2F3D /* WMPlayer.bundle in Resources */,
 				464192C81FDE38F10000E119 /* 语音_N.png in Resources */,
 				464193521FDE50320000E119 /* LICENSE in Resources */,
-				461F582320109D37007D967A /* main_mymic.png in Resources */,
 				461366502005EEEF00C714F7 /* 车辆追踪_内容区_车辆和人位置切换1_N.png in Resources */,
 				46CCDFA12000C6D5009B9A4B /* 车子类型_8.png in Resources */,
 				46B8FA2A204565F700D31C41 /* APN设置_确定_P.png in Resources */,
-				4636E0D9201ACED700A316C6 /* APP_主页_new1_28.png in Resources */,
 				469CA4832101D5F200DE6BDA /* 开机画面4.png in Resources */,
-				460C76EA2007955D0095F5BC /* voicenaci_sound1.png in Resources */,
 				461D369D1FF1FBC200841454 /* 验证码输入框黑色_N.png in Resources */,
 				46C65A131FE36F2D00B76F72 /* RemoteNotiCell2.xib in Resources */,
 				46AAF18B207B64B800F34FE0 /* wechat@3x.png in Resources */,
@@ -4484,7 +4151,6 @@
 				4677D1912176CB74004FB980 /* FHZLspeedSetView.xib in Resources */,
 				461D36571FECE0F100841454 /* ui2_user_icon12.png in Resources */,
 				46574EC02021A64F00077E32 /* .gitkeep in Resources */,
-				460C76F22007955D0095F5BC /* voicenaci_sound10.png in Resources */,
 				4613661A2005A81800C714F7 /* InstructionVC.xib in Resources */,
 				46AAF192207B64B800F34FE0 /* 勾选@3x.png in Resources */,
 				461D35C01FE9163B00841454 /* 轨迹回放_内容区_进度条_P.png in Resources */,
@@ -4494,34 +4160,28 @@
 				461D365D1FECF00A00841454 /* ic_notification.png in Resources */,
 				46C659D21FE25E1700B76F72 /* 个人中心_关于我们.png in Resources */,
 				46574EBE2021A64F00077E32 /* .gitkeep in Resources */,
-				464192D01FDE38F10000E119 /* wangwnag1.png in Resources */,
 				461D35FF1FE93C3800841454 /* 设备信息_标题区_编辑_P.png in Resources */,
 				461D365C1FECF00A00841454 /* ic_launcher_promote.png in Resources */,
 				4651B8B82105715E0081C1C3 /* 开机画面3_1.png in Resources */,
 				466657652063AF4200247F02 /* AvatarPictureViewController.xib in Resources */,
 				464192C21FDE38F10000E119 /* 扫描_P.png in Resources */,
-				460C76AF200794330095F5BC /* 主界面_1.png in Resources */,
 				461D361C1FE93C3E00841454 /* 设置围栏_内容区_进度条_N.png in Resources */,
 				46D315BA202BF0AF00FA2F3D /* resource.xcassets in Resources */,
 				464192BB1FDE38F10000E119 /* 标题栏_返回_N.png in Resources */,
 				4641146D2178AD9600B79378 /* Info.plist in Resources */,
 				461366412005EEEF00C714F7 /* 车辆追踪_内容区_车辆和人位置切换_N.png in Resources */,
 				465FF3AB1FFE0AD400E2C6EE /* 好友邀请_弹出栏_更多_P.png in Resources */,
-				4636E0D8201ACED700A316C6 /* APP_主页_音乐_专辑显示1_N.png in Resources */,
 				464193231FDE50290000E119 /* LICENSE in Resources */,
 				461D35951FE90CB200841454 /* 14_分割线.png in Resources */,
 				46C659CD1FE25E1700B76F72 /* 6jiepin.png in Resources */,
 				464192201FDE366E0000E119 /* Assets.xcassets in Resources */,
 				467DB9BE205BB2DF0036151F /* 车辆追踪_内容区_定位_N.png in Resources */,
 				461D36051FE93C3800841454 /* 设备信息_内容区_流量查询_N.png in Resources */,
-				4636E0E0201ACED700A316C6 /* APP_主页_音乐_下一个_N.png in Resources */,
 				461D35871FE90CB200841454 /* gt6.png in Resources */,
 				461D35EC1FE93C3100841454 /* 警报信息_标题栏_过滤_P.png in Resources */,
-				460C76AB200794330095F5BC /* 主界面_5.png in Resources */,
 				464192BA1FDE38F10000E119 /* 按钮_P.png in Resources */,
 				4641921E1FDE366E0000E119 /* Main.storyboard in Resources */,
 				46C659CE1FE25E1700B76F72 /* 7jiepin.png in Resources */,
-				460C76E52007955D0095F5BC /* voicenaci_sound12.png in Resources */,
 				465FF3B11FFE0AD400E2C6EE /* 好友邀请_弹出栏_QQ空间.png in Resources */,
 				4677D19D2178AAD3004FB980 /* LaunchScreenEngLish.storyboard in Resources */,
 				461D358D1FE90CB200841454 /* 10_N.png in Resources */,
@@ -4532,15 +4192,12 @@
 				46B8FA272045650000D31C41 /* APN设置_输入框.png in Resources */,
 				461D35941FE90CB200841454 /* 13_P.png in Resources */,
 				461D36021FE93C3800841454 /* 设备信息_内容区_底盘2_N.png in Resources */,
-				461D37171FF4F4A700841454 /* 智能找车.png in Resources */,
 				46B8FA2220455BF100D31C41 /* APNSetingViewController.xib in Resources */,
 				464192621FDE36EC0000E119 /* CYTabBar.bundle in Resources */,
 				461D36141FE93C3E00841454 /* 设置围栏_标题栏_保存_N.png in Resources */,
-				460C76D72007955C0095F5BC /* voicenaci_sound7.png in Resources */,
 				465FF3AF1FFE0AD400E2C6EE /* 好友邀请_弹出栏_新浪.png in Resources */,
 				46C659CA1FE25E1700B76F72 /* 3jiepin.png in Resources */,
 				461F582120108212007D967A /* 录音_内容区_录音图标_N.png in Resources */,
-				4636E0EC201B324A00A316C6 /* 音乐_专辑显示区域_没有专辑显示.png in Resources */,
 				461D35BE1FE9163B00841454 /* 轨迹回放_内容区_底盘_N.png in Resources */,
 				461D358F1FE90CB200841454 /* 11_N.png in Resources */,
 				461D37131FF4DB2E00841454 /* mycar.png in Resources */,
@@ -4575,13 +4232,9 @@
 				46C659D01FE25E1700B76F72 /* 9jiepin.png in Resources */,
 				461D35F21FE93C3100841454 /* 警报信息_内容区_显示框_N.png in Resources */,
 				461D35E11FE93C2900841454 /* 电子围栏_内容区_围栏图标_D.png in Resources */,
-				461D36881FF0EA0A00841454 /* 我在这.png in Resources */,
-				464192D11FDE38F10000E119 /* yifu.png in Resources */,
-				46D31572202B063000FA2F3D /* APP_主页_随拍_底图_N.png in Resources */,
 				46D377DB204E434900847B06 /* MAIN_日历_图标_N.png in Resources */,
 				46AAF18F207B64B800F34FE0 /* wechat_moment@3x.png in Resources */,
 				465FF3AA1FFE0AD400E2C6EE /* 好友邀请_弹出栏_更多_N.png in Resources */,
-				460C76E32007955D0095F5BC /* voicenaci_sound19.png in Resources */,
 				4613664C2005EEEF00C714F7 /* 车辆追踪_内容区_车辆和人位置切换_P.png in Resources */,
 				464192C41FDE38F10000E119 /* 位置服务.png in Resources */,
 				46AA64692003186B00F86E37 /* 小红旗@3x.png in Resources */,
@@ -4591,19 +4244,13 @@
 				461D36521FECE0F100841454 /* ui2_user_icon7.png in Resources */,
 				46C659CB1FE25E1700B76F72 /* 4.jiepin.png in Resources */,
 				461D36061FE93C3800841454 /* 设备信息_内容区_流量查询_P.png in Resources */,
-				464192CF1FDE38F10000E119 /* maijia1.png in Resources */,
-				4636E0DE201ACED700A316C6 /* APP_主页_音乐_播放进度条滑块_N.png in Resources */,
-				4636E0D6201ACED700A316C6 /* APP_主页_音乐_暂停_N.png in Resources */,
 				46C659CC1FE25E1700B76F72 /* 5jiepin.png in Resources */,
 				4613664A2005EEEF00C714F7 /* 车辆追踪_内容区_街景_N.png in Resources */,
-				460C76AC200794330095F5BC /* 主界面_8.png in Resources */,
 				4651B8BF2105AD350081C1C3 /* loginAccountCell.xib in Resources */,
 				465FF3421FFB264000E2C6EE /* 单辆车-P.png in Resources */,
 				464192C71FDE38F10000E119 /* 音乐_专辑显示区域.png in Resources */,
 				461D35AE1FE9163500841454 /* 车辆追踪_内容区_追踪_P.png in Resources */,
-				460C76E82007955D0095F5BC /* voicenaci_sound27.png in Resources */,
 				461D36171FE93C3E00841454 /* 设置围栏_内容区_滑块_N.png in Resources */,
-				460C76E72007955D0095F5BC /* voicenaci_sound29.png in Resources */,
 				46AAF187207B64B800F34FE0 /* res6.gif in Resources */,
 				465FF3B31FFE0AD400E2C6EE /* 好友邀请_分享_P.png in Resources */,
 				461D35AA1FE9163500841454 /* 车辆追踪_内容区_车在线_N.png in Resources */,
@@ -4733,7 +4380,6 @@
 				466657852063AF5800247F02 /* AJPhotoGroupView.m in Sources */,
 				460C7315200714300095F5BC /* amrFileCodec.mm in Sources */,
 				461D36FD1FF37C4300841454 /* NSBundle+MJRefresh.m in Sources */,
-				464192FE1FDE39730000E119 /* SearchBTVC.m in Sources */,
 				464192731FDE37030000E119 /* MMDrawerController.m in Sources */,
 				46AA646D2003238400F86E37 /* PromptInfo.m in Sources */,
 				460C767F2007629D0095F5BC /* NSString+Emoji.m in Sources */,
