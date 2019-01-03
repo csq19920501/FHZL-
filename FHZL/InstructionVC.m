@@ -87,7 +87,7 @@ typedef enum {
 //        self.gt121Model = [[Gt121Model alloc]init];
         [self getGT121Model];
         OpenArray = @[L(@"Anti-demolition alarm switch")];
-        setArray = @[L(@"Backpass setup"),L(@"Restore factory settings"),L(@"Custom instruction"),L(@"Overspeed alarm settings")];
+        setArray = @[L(@"Backpass setup"),L(@"Restore factory settings"),L(@"Version"),L(@"Custom instruction")];
     }
     else{
         OpenArray = @[L(@"Oil break power off"),L(@"Arming"),L(@"Door alarm"),L(@"Blind district alarm"),L(@"ACC alarm"),L(@"Low electrical alarm"),L(@"External power failure alarm"),L(@"Displacement alarm"),L(@"Vibration alarm")];
@@ -1298,7 +1298,7 @@ typedef enum {
     speedLimitView.textFile1.delegate = self;
     speedLimitView.textFile1.text = _insStateModel.speedLimit;
     
-    speedLimitView.titleLabel2.text = L(@"Please enter speed limit duration (unit: KM/H)");
+    speedLimitView.titleLabel2.text = L(@"Please enter speed limit duration (unit: S)");
     speedLimitView.textFile3.keyboardType = UIKeyboardTypeNumberPad;
     speedLimitView.textFile3.delegate = self;
     speedLimitView.textFile3.text = _insStateModel.speedLimitRunTime;

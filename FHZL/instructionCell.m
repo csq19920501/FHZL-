@@ -15,8 +15,8 @@
     // Initialization code
     self.successButton.layer.cornerRadius = 4;
     self.successButton.layer.masksToBounds = YES;
-    [_successButton setTitle:NSLocalizedString(@"Success", nil) forState:UIControlStateNormal];
-    [_successButton setTitle:NSLocalizedString(@"Failed", nil) forState:UIControlStateNormal];
+//    [_successButton setTitle:NSLocalizedString(@"Success", nil) forState:UIControlStateNormal];
+//    [_successButton setTitle:NSLocalizedString(@"Failed", nil) forState:UIControlStateNormal];
 }
 -(void)setInsHistoryModel:(InstructionModel*)model{
     _insHistoryModel = model;
@@ -25,7 +25,16 @@
     _insDesc.text = model.status_desc;
     _timeLable.text = [UserManager getDateDisplayString:(long long)[model.createtime longLongValue]];
     _insIsOnline.text = NSLocalizedString(@"Online send", nil);
-    _successButton.selected = !([model.status intValue] == 0);
+//    _successButton.selected = !([model.status intValue] == 1015205);
+    if (([model.status intValue] == 0)) {
+        
+        [_successButton setTitle:NSLocalizedString(@"Success", nil) forState:UIControlStateNormal];
+        [_successButton setBackgroundColor:[UIColor colorWithRed:64/255.0 green:174/255.0 blue:248/255.0 alpha:1]];
+    }else{
+        [_successButton setTitle:NSLocalizedString(@"Failed", nil) forState:UIControlStateNormal];
+        [_successButton setBackgroundColor:[UIColor lightGrayColor]];
+//        NSLog(@"model.status DEFAULT= %@",model.status);
+    }
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

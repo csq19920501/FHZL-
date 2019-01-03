@@ -18,6 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *insDesc;
 @property (weak, nonatomic) IBOutlet UILabel *insIsOnline;
 @property (weak, nonatomic) IBOutlet UILabel *timeLable;
-@property (weak, nonatomic) IBOutlet UIButton *isSuccessButton;
+
 
 @end

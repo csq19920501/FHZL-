@@ -650,6 +650,6 @@
     }else{
         languageStr = @"US";
     }
-    [dictT setObject:@"US" forKey:@"language"];
+    [dictT setObject:languageStr forKey:@"language"];
 }
 @end

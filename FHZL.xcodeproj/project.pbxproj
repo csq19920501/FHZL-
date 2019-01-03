@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A3315F821154B6A00673463 /* TopSwitchCsqView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3315F621154B6200673463 /* TopSwitchCsqView.m */; };
 		3A3315F921154B6A00673463 /* CSQNaviModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3315F721154B6900673463 /* CSQNaviModel.m */; };
+		3ACD77E121D4EC8700CE0D07 /* libstdc%2B%2B.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACD77E021D4EC8700CE0D07 /* libstdc%2B%2B.6.0.9.tbd */; };
 		460C7303200713BE0095F5BC /* recordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460C72FD200713BD0095F5BC /* recordCell.xib */; };
 		460C7304200713BE0095F5BC /* recordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 460C72FE200713BD0095F5BC /* recordCell.m */; };
 		460C7305200713BE0095F5BC /* recordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 460C7300200713BE0095F5BC /* recordModel.m */; };
@@ -553,7 +554,6 @@
 		46B7C15A1FE8E44F0077F25B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B7C1591FE8E44F0077F25B /* Security.framework */; };
 		46B7C15C1FE8E45C0077F25B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B7C15B1FE8E45C0077F25B /* libsqlite3.0.tbd */; };
 		46B7C15E1FE8E4640077F25B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B7C15D1FE8E4640077F25B /* CoreTelephony.framework */; };
-		46B7C1601FE8E4700077F25B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B7C15F1FE8E4700077F25B /* libstdc++.6.0.9.tbd */; };
 		46B7C1691FE8E8150077F25B /* zoomin_selected2d.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B7C1671FE8E8150077F25B /* zoomin_selected2d.png */; };
 		46B7C16A1FE8E8150077F25B /* zoomout_selected2d.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B7C1681FE8E8150077F25B /* zoomout_selected2d.png */; };
 		46B7C16C1FE8E8B50077F25B /* MAIN2_位置_内容区_刷新_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B7C16B1FE8E8B50077F25B /* MAIN2_位置_内容区_刷新_N.png */; };
@@ -704,6 +704,7 @@
 		3A3315F521154B5C00673463 /* TopSwitchCsqView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSwitchCsqView.h; sourceTree = "<group>"; };
 		3A3315F621154B6200673463 /* TopSwitchCsqView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSwitchCsqView.m; sourceTree = "<group>"; };
 		3A3315F721154B6900673463 /* CSQNaviModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSQNaviModel.m; sourceTree = "<group>"; };
+		3ACD77E021D4EC8700CE0D07 /* libstdc%2B%2B.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc%2B%2B.6.0.9.tbd"; sourceTree = "<group>"; };
 		460C72F8200713BA0095F5BC /* recordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordCell.h; sourceTree = "<group>"; };
 		460C72FC200713BC0095F5BC /* recordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordModel.h; sourceTree = "<group>"; };
 		460C72FD200713BD0095F5BC /* recordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = recordCell.xib; sourceTree = "<group>"; };
@@ -1530,7 +1531,6 @@
 		46B7C1591FE8E44F0077F25B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		46B7C15B1FE8E45C0077F25B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		46B7C15D1FE8E4640077F25B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		46B7C15F1FE8E4700077F25B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		46B7C1671FE8E8150077F25B /* zoomin_selected2d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomin_selected2d.png; sourceTree = "<group>"; };
 		46B7C1681FE8E8150077F25B /* zoomout_selected2d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomout_selected2d.png; sourceTree = "<group>"; };
 		46B7C16B1FE8E8B50077F25B /* MAIN2_位置_内容区_刷新_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MAIN2_位置_内容区_刷新_N.png"; sourceTree = "<group>"; };
@@ -1726,7 +1726,6 @@
 				460C734C200744040095F5BC /* AddressBook.framework in Frameworks */,
 				460C734A200743FA0095F5BC /* AVFoundation.framework in Frameworks */,
 				46B7C1501FE8E4260077F25B /* CoreLocation.framework in Frameworks */,
-				46B7C1601FE8E4700077F25B /* libstdc++.6.0.9.tbd in Frameworks */,
 				46B7C1801FE8EE140077F25B /* libssl.a in Frameworks */,
 				46B7C1751FE8ED5C0077F25B /* BaiduMapAPI_Base.framework in Frameworks */,
 				465FF35F1FFDD51600E2C6EE /* libWeChatSDK.a in Frameworks */,
@@ -1743,6 +1742,7 @@
 				46B7C17C1FE8EDDA0077F25B /* BaiduMapAPI_Map.framework in Frameworks */,
 				4613660A2004642000C714F7 /* BaiduPanoSDK.framework in Frameworks */,
 				47C565B577599DCC1C2819CE /* libPods-FHZL.a in Frameworks */,
+				3ACD77E121D4EC8700CE0D07 /* libstdc%2B%2B.6.0.9.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3419,6 +3419,7 @@
 		46B7C14E1FE8E4250077F25B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3ACD77E021D4EC8700CE0D07 /* libstdc%2B%2B.6.0.9.tbd */,
 				46B8FA2420455C2700D31C41 /* MessageUI.framework */,
 				4636E0BC20172A3B00A316C6 /* CFNetwork.framework */,
 				46475DC22011A67B00698D34 /* AdSupport.framework */,
@@ -3435,7 +3436,6 @@
 				46B7C16D1FE8EC2E0077F25B /* BaiduMapAPI_Search.framework */,
 				46B7C16F1FE8EC2E0077F25B /* BaiduMapAPI_Location.framework */,
 				46B7C1701FE8EC2E0077F25B /* BaiduMapAPI_Base.framework */,
-				46B7C15F1FE8E4700077F25B /* libstdc++.6.0.9.tbd */,
 				46B7C15D1FE8E4640077F25B /* CoreTelephony.framework */,
 				46B7C15B1FE8E45C0077F25B /* libsqlite3.0.tbd */,
 				46B7C1591FE8E44F0077F25B /* Security.framework */,

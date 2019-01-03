@@ -17,7 +17,7 @@
         _alarmType = dict[@"alarmType"];
         _battery = dict[@"battery"];
         _fenceName = dict[@"fenceName"];
-        _fenceNum = dict[@"fenceNum"];
+        _fenceNum = [NSString stringWithFormat:@"%d",[dict[@"fenceNum"] intValue] + 1];
         _fenceRadius = dict[@"fenceRadius"];
         _fenceX = dict[@"fenceX"];
         _fenceY = dict[@"fenceY"];

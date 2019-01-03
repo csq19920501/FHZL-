@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -45,7 +45,7 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在线发送" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVg-og-OvS">
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在线发送" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVg-og-OvS">
                         <rect key="frame" x="212.5" y="10" width="53.5" height="16"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="16" id="EB1-dd-sLj"/>
@@ -69,17 +69,16 @@
                         <state key="selected" title="失败"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018/01/08 10:45:20" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZz-0z-PpQ">
-                        <rect key="frame" x="184" y="30.5" width="130" height="16"/>
+                        <rect key="frame" x="187" y="30.5" width="127" height="16"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="16" id="HGd-HW-snO"/>
-                            <constraint firstAttribute="width" constant="130" id="N5S-i0-5OA"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6F-NG-SW6">
-                        <rect key="frame" x="8" y="75" width="312" height="1"/>
+                        <rect key="frame" x="8" y="75.5" width="312" height="1"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="Dbz-Vn-lP8"/>
@@ -112,7 +111,6 @@
                 <outlet property="insDesc" destination="NJP-2S-jJW" id="oOa-CY-JOz"/>
                 <outlet property="insIsOnline" destination="AVg-og-OvS" id="KMh-EX-bFO"/>
                 <outlet property="insName" destination="u5q-h3-3VH" id="YE7-sU-ISl"/>
-                <outlet property="isSuccessButton" destination="ZDn-0I-C6d" id="Ew1-iq-nlF"/>
                 <outlet property="successButton" destination="ZDn-0I-C6d" id="xkf-fT-hno"/>
                 <outlet property="timeLable" destination="QZz-0z-PpQ" id="yM7-Fn-pFD"/>
             </connections>
